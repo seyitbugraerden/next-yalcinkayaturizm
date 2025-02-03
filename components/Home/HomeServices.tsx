@@ -5,7 +5,7 @@ import HomeSwiper from "../ui/HomeSwiper";
 const HomeServices = () => {
   return (
     <section>
-      <SectionTitle />
+      <SectionTitle title="Hizmetlerimiz"/>
       <HomeSwiper />
     </section>
   );

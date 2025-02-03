@@ -11,15 +11,33 @@ import { Pagination } from "swiper/modules";
 
 const ReferanceSwiper = () => {
   return (
-    <div className="max-w-6xl mx-auto mt-12">
+    <div className="max-w-8xl mx-auto mt-12">
       <Swiper
         modules={[Pagination]}
         slidesPerView={5}
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
         spaceBetween={30}
-        className="mySwiper h-[280px]"
+        className="mySwiper h-[420px] px-44"
       >
         <SwiperSlide>
           <Image
@@ -27,16 +45,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="https://picsum.photos/600/600"
-            alt="Image"
-            width={600}
-            height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -45,7 +54,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -54,7 +63,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -63,7 +72,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -72,7 +81,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -81,7 +90,16 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70"
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="https://picsum.photos/600/600"
+            alt="Image"
+            width={300}
+            height={300}
+            className="rounded-xl shadow-xl shadow-black/70 w-full"
           />
         </SwiperSlide>
       </Swiper>

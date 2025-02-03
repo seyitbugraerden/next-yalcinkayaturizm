@@ -19,8 +19,26 @@ const HomeSwiper = () => {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
         modules={[Pagination]}
-        className="mySwiper h-[570px]"
+        className="mySwiper h-[570px] overflow-visible"
       >
         <SwiperSlide>
           <ServiceCard />
