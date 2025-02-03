@@ -20,7 +20,7 @@ const HomeSwiper = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper h-[550px]"
+        className="mySwiper h-[570px]"
       >
         <SwiperSlide>
           <ServiceCard />
