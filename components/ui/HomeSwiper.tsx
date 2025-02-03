@@ -15,12 +15,12 @@ const HomeSwiper = () => {
     <div className="mx-12 mt-12">
       <Swiper
         slidesPerView={4}
-        spaceBetween={80}
+        spaceBetween={50}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper "
+        className="mySwiper h-[550px]"
       >
         <SwiperSlide>
           <ServiceCard />

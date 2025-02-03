@@ -8,7 +8,7 @@ import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
 const Header = () => {
   return (
     <header className="bg-black/80 text-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="flex flex-row items-center justify-between py-2 text-xs">
           <div className="flex flex-row gap-4 items-center">
             <div className="flex flex-row items-center gap-1">

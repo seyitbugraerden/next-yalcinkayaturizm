@@ -13,3 +13,10 @@ section {
     url("https://picsum.photos/1920/1080");
   background-attachment: fixed;
 }
+
+.swiper-pagination-bullet{
+  @apply !rounded-none transition duration-200
+}
+.swiper-pagination-bullet-active{
+  @apply scale-125
+}
