@@ -10,9 +10,11 @@ section {
   @apply py-14;
 }
 .image_pos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://picsum.photos/1920/1080");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../public/bg_fixed.webp");
   background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center
 }
 .home_slider .swiper-pagination-bullet {
   @apply bg-white;

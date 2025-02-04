@@ -1,15 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const WhoAreWe = () => {
   return (
     <section className="flex flex-col lg:flex-row gap-12 lg:gap-4 max-w-8xl mx-auto">
       <div className="flex-1 order-2 lg:order-1">
         <Image
-          src="https://picsum.photos/600/600"
+          src="/about.webp"
           alt="Biz Kimiz"
           width={600}
           height={200}
-          className="rounded-xl shadow-xl shadow-black/70"
+          className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[500px]"
         />
       </div>
       <div className="flex-1 order-1 lg:order-2 flex">
@@ -17,22 +18,35 @@ const WhoAreWe = () => {
           <div className="px-3 py-2 border rounded-xl text-primary bg-primary/30 text-xs border-primary">
             Biz Kimiz?
           </div>
-          <div className="text-4xl font-bold">Lorem ipsum dolor sit.</div>
+          <div className="text-4xl font-bold">
+            Ankara'da Güvenli ve Konforlu Ulaşım Hizmetleri
+          </div>
           <div className="mt-4 text-justify">
             <p className="text-sm text-black/50">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              ab corrupti perspiciatis distinctio praesentium eligendi fugiat
-              dolores repudiandae sapiente quas possimus harum non repellat
-              vero, magni velit voluptates id dicta quod adipisci? Nesciunt,
-              soluta. Excepturi corrupti voluptate et vero hic.
+              Yalçınkaya Turizm olarak Ankara'da otobüs, minibüs, midibüs ve VIP
+              araçlarla havaalanı transferi, gezi turları, düğün ve nişan
+              organizasyonları için araç temini hizmeti sunuyoruz. Şirket
+              misafirlerinizin karşılanması ve transfer süreçleri, deneyimli
+              kadromuz ve konforlu araç filomuzla güvenle
+              gerçekleştirilmektedir.
             </p>{" "}
+            <br />
             <p className="text-sm text-black/50">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
-              voluptas nisi ullam fugiat consequatur, commodi facere aperiam
-              porro beatae natus nulla dignissimos quasi quidem necessitatibus
-              totam assumenda animi sit laborum sint in id impedit repudiandae
-              maxime. Voluptatem quam tenetur non?
-            </p>
+              Ayrıca, öğrenci ve personel servisi hizmetlerinde, araç takip
+              sistemli ve kameralı güvenli taşıma seçenekleriyle çocuklarınızın
+              ve çalışanlarınızın ulaşımını sağlıyoruz. Resmi kurumlar ve özel
+              şirketler için binek araç, minibüs, midibüs, panel van ve 4x4
+              pick-up kiralama hizmeti sunmaktayız.
+            </p>{" "}
+            <br />
+            <p className="text-sm text-black/50">
+              Ankara'da uygun fiyatlı, güvenli ve konforlu ulaşım çözümleri için
+              Yalçınkaya Turizm'i tercih edin!
+            </p>{" "}
+            <br />
+            <Link href="#" className="text-sm text-black/50">
+              İletişim için hemen arayın!
+            </Link>
           </div>
         </div>
       </div>
