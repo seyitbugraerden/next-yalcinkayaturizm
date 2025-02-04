@@ -35,3 +35,7 @@ section {
 a:hover {
   @apply text-primary transition duration-200;
 }
+.bg_img{
+  background-image: url("https://picsum.photos/1920/1080");
+  height: 100dvh;
+}

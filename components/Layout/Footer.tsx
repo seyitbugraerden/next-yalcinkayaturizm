@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsTwitterX } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn, FaTiktok, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import {
   IoCall,
   IoLocationSharp,
@@ -83,12 +82,6 @@ const Footer = () => {
             <IoLogoInstagram size={18} />
           </Link>
           <Link
-            href="#"
-            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-          >
-            <BsTwitterX size={18} />
-          </Link>
-          <Link
             href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
             target="_blank"
             className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
@@ -102,47 +95,29 @@ const Footer = () => {
           >
             <FaLinkedinIn size={18} />
           </Link>{" "}
-          <Link
-            href="#"
-            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-          >
-            <FaYoutube size={18} />
-          </Link>
         </div>
       </div>
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-12">
+      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-4 py-12">
         <div>
           <Image src="/white_logo.png" alt="logo" width={280} height={120} />
         </div>
         <div>
           <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
-            <div className="w-[3px] h-6 bg-primary"></div>
-            Kurumsal
-          </h5>
-          <ul className="flex flex-col items-start gap-3 mt-4 font-light">
-            <li>Kurumsal Başlık</li>
-            <li>Kurumsal Başlık</li>
-            <li>Kurumsal Başlık</li>
-            <li>Kurumsal Başlık</li>
-            <li>Kurumsal Başlık</li>
-          </ul>
-        </div>
-        <div>
-          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
-            <div className="w-[3px] h-6 bg-primary"></div>
             Hizmetlerimiz
           </h5>
-          <ul className="flex flex-col items-start gap-3 mt-4 font-light">
-            <li>Hizmetlerimiz Başlık</li>
-            <li>Hizmetlerimiz Başlık</li>
-            <li>Hizmetlerimiz Başlık</li>
-            <li>Hizmetlerimiz Başlık</li>
-            <li>Hizmetlerimiz Başlık</li>
+          <ul className="flex flex-col items-start gap-3 mt-4 font-light text-sm">
+            <li>
+            Hizmetlerimiz Başlık
+            </li>
           </ul>
         </div>
         <div>
           <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
-            <div className="w-[3px] h-6 bg-primary"></div>
+            Hakkımızda
+          </h5>
+        </div>
+        <div>
+          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
             İletişim
           </h5>
           <iframe

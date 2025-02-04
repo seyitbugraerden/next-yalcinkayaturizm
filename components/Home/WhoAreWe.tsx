@@ -15,37 +15,37 @@ const WhoAreWe = () => {
       </div>
       <div className="flex-1 order-1 lg:order-2 flex">
         <div className="flex flex-col gap-2 justify-center items-center lg:items-start">
-          <div className="px-3 py-2 uppercase text-primary text-xs font-bold flex flex-row items-start gap-2">
-            <div className="w-[3px] mx-auto  h-4 bg-primary"></div>
+          <div className="uppercase text-primary text-4xl font-bold">
             Biz Kimiz?
           </div>
-          <div className="text-4xl font-bold">
-            Ankara&apos;da Güvenli ve Konforlu Ulaşım Hizmetleri
-          </div>
+          <div className="text-4xl font-bold"></div>
           <div className="mt-4 text-justify">
-            <p className="text-sm text-black/50">
-              Yalçınkaya Turizm olarak Ankara&apos;da otobüs, minibüs, midibüs
-              ve VIP araçlarla havaalanı transferi, gezi turları, düğün ve nişan
-              organizasyonları için araç temini hizmeti sunuyoruz. Şirket
-              misafirlerinizin karşılanması ve transfer süreçleri, deneyimli
-              kadromuz ve konforlu araç filomuzla güvenle
-              gerçekleştirilmektedir.
+            <p className="text-sm text-[#575757]">
+              Net Seyahat Turizm Ltd. Şti olarak turizm ve taşımacılık
+              sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz bütün
+              tecrübeyi bir araya getirerek siz değerli müşterilerimize hizmet
+              vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda başlıca
+              ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler
+              doğrultusunda sizlere; şehir içi ve şehir dışı, ulaşım ve transfer
+              faliyetlerini, otobüs, minibüs, midibüs, vip minibüs ve vip
+              otomobil araçlar ile hizmet vermekteyiz.
             </p>{" "}
             <br />
-            <p className="text-sm text-black/50">
-              Ayrıca, öğrenci ve personel servisi hizmetlerinde, araç takip
-              sistemli ve kameralı güvenli taşıma seçenekleriyle çocuklarınızın
-              ve çalışanlarınızın ulaşımını sağlıyoruz. Resmi kurumlar ve özel
-              şirketler için binek araç, minibüs, midibüs, panel van ve 4x4
-              pick-up kiralama hizmeti sunmaktayız.
+            <p className="text-sm text-[#575757]">
+              Hizmetlerimiz resmi ve özel kurumların şehir içi ve şehir
+              dışındaki ulaşım faaliyetlerini, personel ve öğrenci servis taşıma
+              işlemlerini. Özel ve resmi kurum kuruluşların binek otomobil, 4x4
+              pick-up, hafif ticari araç ihtyaçlarını karşılamayı kapsamaktadır.
             </p>{" "}
             <br />
-            <p className="text-sm text-black/50">
-              Ankara&apos;da uygun fiyatlı, güvenli ve konforlu ulaşım çözümleri
-              için Yalçınkaya Turizm&apos;i tercih edin!
+            <p className="text-sm text-[#575757]">
+              Başarı ve devamlılığın teminatı hizmette dürüstlük ve kalitedir.
+              Bu prensibi ilke olarak benimseyen Net Seyahat Turizm olarak
+              göstermiş olduğunuz yakın ilgi ve desteğinizden ötürü teşekkür
+              ederek, sizlere bugün ve gelecekte hizmet vermekten gurur duyarız.
             </p>{" "}
             <br />
-            <Link href="#" className="text-sm text-black/50">
+            <Link href="#" className="text-sm text-[#575757] font-semibold">
               İletişim için hemen arayın!
             </Link>
           </div>

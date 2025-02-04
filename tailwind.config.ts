@@ -12,6 +12,7 @@ export default {
         primary: "#4e98da",
         bg: "#102333",
         bg_sec: "#02284a",
+        text: "#575757",
       },
     },
   },

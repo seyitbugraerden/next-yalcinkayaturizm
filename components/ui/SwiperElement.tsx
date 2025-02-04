@@ -6,74 +6,52 @@ import Button from "./Button";
 import { Pagination } from "swiper/modules";
 const SwiperElement = () => {
   return (
-    <div className="text-white bg-gradient-to-b from-bg to-bg_sec  py-10">
-      <Swiper
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper home_slider lg:h-[650px]"
-      >
-        <SwiperSlide>
-          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto cursor-pointer">
-            <div className="flex-1 order-2 lg:order-1 flex flex-col gap-3 justify-center items-start">
-              <div>
-                <h2 className="text-4xl mb-4 lg:mb-4 lg:text-[80px] lg:leading-[90px] font-semibold">
-                  Lüksün ve Konforun Buluştuğu Yer!
-                </h2>
-                <div className="w-1/2 h-[5px] bg-primary"></div>
-              </div>
-              <div className="flex flex-col gap-8 items-start mt-4">
-                <p className="text-sm font-light">
-                  VIP ayrıcalıklarıyla tasarlanmış konforlu ve prestijli seyahat
-                  deneyimleri sunuyoruz. Kişiye özel hizmetlerle lüksü her an
-                  hissedin!
-                </p>
-                <Button />
-              </div>
-            </div>
-            <div className="flex-1 order-1 lg:order-2">
-              <Image
-                src="/slider.webp"
-                alt="Slider Image"
-                width={600}
-                height={600}
-                className="rounded-xl lg:h-[550px] w-[100%] object-cover"
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto cursor-pointer">
-            <div className="flex-1 order-2 lg:order-1 flex flex-col gap-3 justify-center items-start">
-              <div>
-                <h2 className="text-4xl mb-4 lg:mb-4 lg:text-[80px] lg:leading-[90px] font-semibold">
-                  Özel Yolculuklar, Unutulmaz Deneyimler!
-                </h2>
-                <div className="w-1/2 h-[5px] bg-primary"></div>
-              </div>
-              <div className="flex flex-col gap-8 items-start mt-4">
-                <p className="text-sm font-light">
-                  Her anı özel kılan VIP seyahatler! Konforlu ulaşım, seçkin
-                  konaklamalar ve size özel planlanmış unutulmaz deneyimlerle
-                  ayrıcalıklı dünyaya adım atın.
-                </p>
-                <Button />
-              </div>
-            </div>
-            <div className="flex-1 order-1 lg:order-2">
-              <Image
-                src="/slider2.webp"
-                alt="Slider Image"
-                width={600}
-                height={600}
-                className="rounded-xl lg:h-[550px] w-[100%] object-cover"
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </div>
+    <Swiper
+      className="mySwiper h-[85dvh]"
+      modules={[Pagination]}
+      pagination={{
+        clickable: true,
+      }}
+    >
+      <SwiperSlide className="relative">
+        <div className="max-w-8xl mx-auto text-white z-[999] h-full flex flex-col justify-center items-start gap-10">
+          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl">
+            Lüksün ve Konforun Buluştuğu Yer!
+          </h2>
+          <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
+          <p className="text-sm text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            amet.
+          </p>
+          <Button />
+        </div>
+        <Image
+          src="https://picsum.photos/1920/1080"
+          alt="Swiper Image"
+          fill
+          className="brightness-50 absolute top-0 left-0 w-full h-full -z-50"
+        />
+      </SwiperSlide>
+      <SwiperSlide className="relative">
+        <div className="max-w-8xl mx-auto text-white z-[999] h-full flex flex-col justify-center items-start gap-10">
+          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl">
+            Lüksün ve Konforun Buluştuğu Yer!
+          </h2>
+          <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
+          <p className="text-sm text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            amet.
+          </p>
+          <Button />
+        </div>
+        <Image
+          src="https://picsum.photos/1920/1080"
+          alt="Swiper Image"
+          fill
+          className="brightness-50 absolute top-0 left-0 w-full h-full -z-50"
+        />
+      </SwiperSlide>
+    </Swiper>
   );
 };
 

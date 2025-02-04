@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 // import required modules
 
@@ -13,10 +13,14 @@ const ReferanceSwiper = () => {
   return (
     <div className="max-w-8xl mx-auto mt-3">
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         slidesPerView={5}
         pagination={{
           clickable: true,
+        }}
+        autoplay={{
+          delay: 1000, // 3 saniyede bir değişim
+          disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
         }}
         breakpoints={{
           320: {
@@ -45,7 +49,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -54,7 +58,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -63,7 +67,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -72,7 +76,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -81,7 +85,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -90,7 +94,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -99,7 +103,7 @@ const ReferanceSwiper = () => {
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
       </Swiper>

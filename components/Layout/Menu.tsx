@@ -8,10 +8,10 @@ import { MdClose, MdKeyboardArrowDown } from "react-icons/md";
 const Menu = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <nav className="flex flex-row items-center justify-between text-white">
-      <Image src="/white_logo.png" alt="logo" width={180} height={40} />
+    <nav className="flex flex-row items-center justify-between text-black">
+      <Image src="/logo.png" alt="logo" width={180} height={40} />
       <ul
-        className={`absolute lg:relative top-0 left-0 w-screen lg:w-fit h-screen lg:h-fit flex-col gap-6 lg:flex lg:flex-row lg:items-center lg:gap-5 p-12 z-[999999] lg:p-0 ${
+        className={`absolute bg-white lg:relative top-0 left-0 w-screen lg:w-fit h-screen lg:h-fit flex-col gap-6 lg:flex lg:flex-row lg:items-center lg:gap-5 p-12 z-[999999] lg:p-0 ${
           isMobile ? "flex" : "hidden"
         }`}
       >
@@ -24,7 +24,7 @@ const Menu = () => {
         </li>
         <li className="relative group">
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
-            Kurumsal <MdKeyboardArrowDown />
+            Hizmetlerimiz <MdKeyboardArrowDown />
           </span>
           <ul className="absolute top-4 hidden group-hover:block w-full z-50">
             <div className="mt-4 bg-black rounded-xl shadow-sm shadow-primary pt-2 pb-4">
@@ -51,34 +51,32 @@ const Menu = () => {
             </div>
           </ul>
         </li>
-        <li className="relative group">
+        <li className="font-medium text-sm relative group">
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
-            Hizmetlerimiz <MdKeyboardArrowDown />
-          </span>{" "}
+            Referanslarımız <MdKeyboardArrowDown />
+          </span>
           <ul className="absolute top-4 hidden group-hover:block w-full z-50">
             <div className="mt-4 bg-black rounded-xl shadow-sm shadow-primary pt-2 pb-4">
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Savunma Sanayi
                 </Link>
               </li>
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Resmi Kurumlar
                 </Link>
               </li>
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
-                </Link>
-              </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
-                <Link href="#" className="hover:!text-white">
-                  Text
+                  Diğer Kuruluşlar
                 </Link>
               </li>
             </div>
           </ul>
+        </li>
+        <li className="font-medium text-sm">
+          <Link href="#">Hakkımızda</Link>
         </li>
         <li className="font-medium text-sm">
           <Link href="#">İletişim</Link>

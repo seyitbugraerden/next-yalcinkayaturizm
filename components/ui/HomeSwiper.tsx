@@ -7,17 +7,22 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import ServiceCard from "./ServiceCard";
 
 const HomeSwiper = () => {
   return (
-    <div className="mx-12 mt-12">
+    <div className="mx-12 ">
       <Swiper
         slidesPerView={4}
         spaceBetween={50}
         pagination={{
           clickable: true,
+        }}
+        loop
+        autoplay={{
+          delay: 1000, // 3 saniyede bir değişim
+          disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
         }}
         breakpoints={{
           320: {
@@ -37,35 +42,35 @@ const HomeSwiper = () => {
             spaceBetween: 50,
           },
         }}
-        modules={[Pagination]}
-        className="mySwiper h-[480px] overflow-visible"
+        modules={[Pagination, Autoplay]}
+        className="mySwiper h-[500px] overflow-visible"
       >
         <SwiperSlide>
-          <ServiceCard text="Ankara Personel Taşımacılığı" />
+          <ServiceCard text="Personel Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Havaalanı Transfer" />
+          <ServiceCard text="Havaalanı Transfer" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Otobüs Kiralama" />
+          <ServiceCard text="Otobüs Kiralama" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Şoförlü Vip Minibüs Kiralama" />
+          <ServiceCard text="Şoförlü Vip Minibüs Kiralama" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Öğrenci Servis Taşımacılığı" />
+          <ServiceCard text="Öğrenci Servis Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Konforlu Transfer Hizmeti" />
+          <ServiceCard text="Konforlu Transfer Hizmeti" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Ziyaretçi Taşımacılığı" />
+          <ServiceCard text="Ziyaretçi Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara Turizm Taşımacılığı" />
+          <ServiceCard text="Turizm Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Ankara V.I.P. Transfer" />
+          <ServiceCard text="V.I.P. Transfer" />
         </SwiperSlide>
       </Swiper>
     </div>
