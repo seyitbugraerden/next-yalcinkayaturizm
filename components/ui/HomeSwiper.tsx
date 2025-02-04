@@ -33,12 +33,12 @@ const HomeSwiper = () => {
             spaceBetween: 30,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 50,
           },
         }}
         modules={[Pagination]}
-        className="mySwiper h-[570px] overflow-visible"
+        className="mySwiper h-[480px] overflow-visible"
       >
         <SwiperSlide>
           <ServiceCard />

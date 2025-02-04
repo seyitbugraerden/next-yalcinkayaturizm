@@ -13,11 +13,8 @@ export default function Home() {
       <WhoAreWe />
       <ImageFixed />
       <HomeServices />
-      <Referance />
       <WhatWeOffer />
-      <div className="lg:hidden">
-        <GallerySwiper />
-      </div>
+      <Referance />
     </>
   );
 }

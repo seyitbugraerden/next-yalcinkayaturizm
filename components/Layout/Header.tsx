@@ -1,39 +1,69 @@
 import React from "react";
 import Menu from "./Menu";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { IoCall } from "react-icons/io5";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { IoCall, IoLogoInstagram, IoMailSharp } from "react-icons/io5";
+import {
+  FaFacebookF,
+  FaFacebookSquare,
+  FaLinkedin,
+  FaLinkedinIn,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa";
 import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
 import Link from "next/link";
+import { BsTwitterX } from "react-icons/bs";
+import { CiMail } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <header className="text-black">
-      <div className="text-black">
+    <header className="text-white bg-bg">
+      <div className="text-white bg-bg">
         <div className="max-w-8xl mx-auto">
           <div className="flex flex-col gap-4 md:flex-row items-center justify-between py-3 text-xs">
-            <div className="flex flex-row gap-4 items-center">
-              <Link href="#" className="flex flex-row items-center gap-1">
-                <MdOutlineAlternateEmail size={14} />
-                <span>support@support.com</span>
+            <div className="flex flex-row gap-6 items-center">
+              <Link
+                href="mailto:yalcinkayanetturizm@hotmail.com"
+                className="flex flex-row items-center gap-1"
+              >
+                <IoMailSharp size={14} />
+                <span>yalcinkayanetturizm@hotmail.com</span>
               </Link>
-              <Link href="#" className="flex flex-row items-center gap-1">
+              <Link
+                href="tel:+905323445502"
+                className="flex flex-row items-center gap-1"
+              >
                 <IoCall size={14} />
-                <span>+90 555 555 55 55</span>
+                <span>+90 532 344 55 02</span>
               </Link>
             </div>
-            <div className="flex flex-row items-center gap-2">
-              <Link href="#">
-                <FaFacebookSquare size={16} />
+            <div className="flex flex-row items-center gap-4">
+              <Link
+                href="https://www.facebook.com/people/Yal%C3%A7%C4%B1nkaya-Tur/100082860146198/"
+                target="_blank"
+              >
+                <FaFacebookF size={16} />
+              </Link>
+              <Link
+                href="https://www.instagram.com/yalcinkayatur/?hl=tr"
+                target="_blank"
+              >
+                <IoLogoInstagram size={16} />
               </Link>
               <Link href="#">
-                <FaSquareXTwitter size={16} />
+                <BsTwitterX size={14} />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
+                target="_blank"
+              >
+                <FaTiktok size={14} />
               </Link>
               <Link href="#">
-                <FaLinkedin size={16} />
+                <FaLinkedinIn size={15} />
               </Link>
               <Link href="#">
-                <FaSquareYoutube size={16} />
+                <FaYoutube size={16} />
               </Link>
             </div>
           </div>

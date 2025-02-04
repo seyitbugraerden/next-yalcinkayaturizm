@@ -6,10 +6,7 @@ import GallerySwiper from "../ui/GallerySwiper";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1D231F] text-white pt-24 lg:pt-0 pb-4 mt-24 lg:mt-40">
-      <div className="hidden lg:block">
-        <GallerySwiper />
-      </div>
+    <footer className="bg-[#1D231F] text-white pt-24 lg:pt-12 pb-4">
       <div className="max-w-8xl mx-auto flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12 lg:gap-0">
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-24">
           <div className="flex flex-row gap-6">
@@ -48,7 +45,9 @@ const Footer = () => {
             />
             <div className="flex flex-col items-start">
               <div className="font-semibold">İletişim</div>
-              <div className="font-light w-full whitespace-nowrap text-nowrap">+90 555 555 55 55</div>
+              <div className="font-light w-full whitespace-nowrap text-nowrap">
+                +90 555 555 55 55
+              </div>
             </div>
           </div>
         </div>

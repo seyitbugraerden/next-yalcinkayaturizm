@@ -2,7 +2,7 @@ import ReferanceSwiper from "../ui/ReferanceSwiper";
 
 const Referance = () => {
   return (
-    <section className="bg-[#1D231F] !text-white">
+    <section>
       <div className="flex flex-col gap-3 justify-center items-center">
         <div className="px-3 py-2 border rounded-xl text-primary bg-primary/30 border-primary text-xs">
           Referanslarımız

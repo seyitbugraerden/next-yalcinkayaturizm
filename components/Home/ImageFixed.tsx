@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../ui/Button";
 
 const ImageFixed = () => {
   return (
@@ -9,7 +10,7 @@ const ImageFixed = () => {
         perferendis. Laboriosam adipisci provident ab. Est reiciendis quae
         perspiciatis nulla.
       </p>
-      <button className="px-3 py-2 border">Keşfet</button>
+      <Button />
     </div>
   );
 };

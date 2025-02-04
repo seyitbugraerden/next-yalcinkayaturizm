@@ -24,7 +24,7 @@ section {
   @apply lg:max-w-[1440px] max-w-[85%];
 }
 .swiper-pagination-bullet {
-  @apply !rounded-none transition duration-200;
+  @apply transition duration-200;
 }
 .swiper-pagination-bullet-active {
   @apply scale-125;

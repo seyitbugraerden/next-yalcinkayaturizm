@@ -6,7 +6,7 @@ import Button from "./Button";
 import { Pagination } from "swiper/modules";
 const SwiperElement = () => {
   return (
-    <div className="text-black py-10">
+    <div className="text-white bg-gradient-to-b from-bg to-bg_sec  py-10">
       <Swiper
         pagination={{
           clickable: true,
@@ -15,7 +15,7 @@ const SwiperElement = () => {
         className="mySwiper home_slider lg:h-[650px]"
       >
         <SwiperSlide>
-          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto ">
+          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto cursor-pointer">
             <div className="flex-1 order-2 lg:order-1 flex flex-col gap-3 justify-center items-start">
               <div>
                 <h2 className="text-4xl mb-4 lg:mb-4 lg:text-[80px] lg:leading-[90px] font-semibold">
@@ -43,7 +43,7 @@ const SwiperElement = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto ">
+          <div className="flex flex-col lg:flex-row gap-6 py-2 max-w-8xl mx-auto cursor-pointer">
             <div className="flex-1 order-2 lg:order-1 flex flex-col gap-3 justify-center items-start">
               <div>
                 <h2 className="text-4xl mb-4 lg:mb-4 lg:text-[80px] lg:leading-[90px] font-semibold">

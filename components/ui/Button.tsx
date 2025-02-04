@@ -3,15 +3,13 @@ import { FaPaperPlane } from "react-icons/fa";
 
 const Button = () => {
   return (
-    <div className="border rounded-full bg-primary border-none ps-4 py-1 group">
+    <div className="border rounded-lg bg-primary border border-transparent px-4 py-2 group hover:bg-bg transition duration-200 hover:border-primary">
       <Link
         href="#"
-        className="flex flex-row items-center gap-4 hover:!text-white"
+        className="flex flex-row items-center gap-2 hover:!text-white"
       >
         <span className="text-md">İncele</span>
-        <div className="bg-white p-3 rounded-full group-hover:bg-primary transition duration-200">
-          <FaPaperPlane className="text-primary group-hover:text-white transition duration-200" />
-        </div>
+        <FaPaperPlane className="text-white transition duration-200" />
       </Link>
     </div>
   );
