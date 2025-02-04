@@ -4,7 +4,8 @@ const Referance = () => {
   return (
     <section>
       <div className="flex flex-col gap-3 justify-center items-center">
-        <div className="px-3 py-2 border rounded-xl text-primary bg-primary/30 border-primary text-xs">
+        <div className="px-3 py-2 uppercase text-primary text-xs font-bold flex flex-row items-start gap-2">
+          <div className="w-[3px] mx-auto  h-4 bg-primary"></div>
           Referanslarımız
         </div>
         <div className="text-4xl font-bold">Lorem ipsum dolor sit.</div>

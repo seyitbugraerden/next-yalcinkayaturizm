@@ -115,7 +115,10 @@ const Footer = () => {
           <Image src="/white_logo.png" alt="logo" width={280} height={120} />
         </div>
         <div>
-          <h5 className="font-semibold text-xl">Kurumsal</h5>
+          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
+            <div className="w-[3px] h-6 bg-primary"></div>
+            Kurumsal
+          </h5>
           <ul className="flex flex-col items-start gap-3 mt-4 font-light">
             <li>Kurumsal Başlık</li>
             <li>Kurumsal Başlık</li>
@@ -125,7 +128,10 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h5 className="font-semibold text-xl">Hizmetlerimiz</h5>
+          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
+            <div className="w-[3px] h-6 bg-primary"></div>
+            Hizmetlerimiz
+          </h5>
           <ul className="flex flex-col items-start gap-3 mt-4 font-light">
             <li>Hizmetlerimiz Başlık</li>
             <li>Hizmetlerimiz Başlık</li>
@@ -135,7 +141,10 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h5 className="font-semibold text-xl">İletişim</h5>
+          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
+            <div className="w-[3px] h-6 bg-primary"></div>
+            İletişim
+          </h5>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.4019147198683!2d32.826784089506916!3d39.887632914274015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3458b577674c9%3A0xe594be421c094048!2zw5Z2ZcOnbGVyLCBUZXZmaWsgRmlrcmV0IENkLiBObzoyNiwgMDY0NjAgw4dhbmtheWEvQW5rYXJh!5e0!3m2!1str!2str!4v1738661127449!5m2!1str!2str"
             width="600"
