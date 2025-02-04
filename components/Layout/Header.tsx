@@ -1,19 +1,14 @@
 import React from "react";
 import Menu from "./Menu";
-import { MdOutlineAlternateEmail } from "react-icons/md";
 import { IoCall, IoLogoInstagram, IoMailSharp } from "react-icons/io5";
 import {
   FaFacebookF,
-  FaFacebookSquare,
-  FaLinkedin,
   FaLinkedinIn,
   FaTiktok,
   FaYoutube,
 } from "react-icons/fa";
-import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
 import Link from "next/link";
 import { BsTwitterX } from "react-icons/bs";
-import { CiMail } from "react-icons/ci";
 
 const Header = () => {
   return (
