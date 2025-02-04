@@ -11,7 +11,7 @@ import { Pagination } from "swiper/modules";
 
 const ReferanceSwiper = () => {
   return (
-    <div className="max-w-8xl mx-auto mt-12">
+    <div className="max-w-8xl mx-auto mt-3">
       <Swiper
         modules={[Pagination]}
         slidesPerView={5}
@@ -32,74 +32,74 @@ const ReferanceSwiper = () => {
             spaceBetween: 30,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 50,
           },
         }}
         spaceBetween={30}
-        className="mySwiper h-[420px] px-44"
+        className="mySwiper h-[270px] px-44"
       >
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="https://picsum.photos/600/600"
+            src="/logo.png"
             alt="Image"
             width={300}
             height={300}
-            className="rounded-xl shadow-xl shadow-black/70 w-full"
+            className="shadow-md shadow-black/30 rounded-xl w-full p-12"
           />
         </SwiperSlide>
       </Swiper>

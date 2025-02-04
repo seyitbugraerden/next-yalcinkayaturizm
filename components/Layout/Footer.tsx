@@ -67,8 +67,7 @@ const Footer = () => {
       </div>
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-12">
         <div>
-          {" "}
-          <h5 className="font-semibold text-xl">Logo</h5>
+          <Image src="/white_logo.png" alt="logo" width={180} height={40} />
         </div>
         <div>
           <h5 className="font-semibold text-xl">Kurumsal</h5>
