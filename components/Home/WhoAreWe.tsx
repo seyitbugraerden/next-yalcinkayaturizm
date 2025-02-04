@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const WhoAreWe = () => {
   return (
-    <section className="flex flex-col lg:flex-row gap-12 lg:gap-4 max-w-8xl mx-auto">
+    <section className="flex flex-col lg:flex-row gap-12 lg:gap-4 max-w-8xl mx-auto lg:pb-20">
       <div className="flex-1 order-2 lg:order-1">
         <Image
           src="/about.webp"

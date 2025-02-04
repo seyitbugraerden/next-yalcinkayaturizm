@@ -41,31 +41,31 @@ const HomeSwiper = () => {
         className="mySwiper h-[480px] overflow-visible"
       >
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Personel Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Havaalanı Transfer" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Otobüs Kiralama" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Şoförlü Vip Minibüs Kiralama" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Öğrenci Servis Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Konforlu Transfer Hizmeti" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Ziyaretçi Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara Turizm Taşımacılığı" />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard />
+          <ServiceCard text="Ankara V.I.P. Transfer" />
         </SwiperSlide>
       </Swiper>
     </div>

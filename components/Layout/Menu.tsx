@@ -9,7 +9,7 @@ const Menu = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <nav className="flex flex-row items-center justify-between text-white">
-      <Image src="/logo.png" alt="logo" width={180} height={40} />
+      <Image src="/white_logo.png" alt="logo" width={180} height={40} />
       <ul
         className={`absolute lg:relative top-0 left-0 w-screen lg:w-fit h-screen lg:h-fit flex-col gap-6 lg:flex lg:flex-row lg:items-center lg:gap-5 p-12 z-[999999] lg:p-0 ${
           isMobile ? "flex" : "hidden"
@@ -96,7 +96,9 @@ const Menu = () => {
         onClick={() => {
           setIsMobile(false);
         }}
-        className={`absolute z-[999999] top-24 right-6 lg:hidden ${!isMobile && "hidden"}`}
+        className={`absolute z-[999999] top-24 right-6 lg:hidden ${
+          !isMobile && "hidden"
+        }`}
       />
     </nav>
   );
