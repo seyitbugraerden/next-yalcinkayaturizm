@@ -19,11 +19,11 @@ const WhoAreWe = () => {
             Biz Kimiz?
           </div>
           <div className="text-4xl font-bold">
-            Ankara'da Güvenli ve Konforlu Ulaşım Hizmetleri
+            Ankara&apos;da Güvenli ve Konforlu Ulaşım Hizmetleri
           </div>
           <div className="mt-4 text-justify">
             <p className="text-sm text-black/50">
-              Yalçınkaya Turizm olarak Ankara'da otobüs, minibüs, midibüs ve VIP
+              Yalçınkaya Turizm olarak Ankara&apos;da otobüs, minibüs, midibüs ve VIP
               araçlarla havaalanı transferi, gezi turları, düğün ve nişan
               organizasyonları için araç temini hizmeti sunuyoruz. Şirket
               misafirlerinizin karşılanması ve transfer süreçleri, deneyimli
@@ -40,8 +40,8 @@ const WhoAreWe = () => {
             </p>{" "}
             <br />
             <p className="text-sm text-black/50">
-              Ankara'da uygun fiyatlı, güvenli ve konforlu ulaşım çözümleri için
-              Yalçınkaya Turizm'i tercih edin!
+              Ankara&apos;da uygun fiyatlı, güvenli ve konforlu ulaşım çözümleri için
+              Yalçınkaya Turizm&apos;i tercih edin!
             </p>{" "}
             <br />
             <Link href="#" className="text-sm text-black/50">
