@@ -4,7 +4,7 @@
 
 body {
   font-family: "Poppins", serif;
-  @apply bg-white;
+  @apply bg-white overflow-x-hidden;
 }
 section {
   @apply py-14;
@@ -23,7 +23,7 @@ section {
   @apply bg-primary;
 }
 .max-w-8xl {
-  @apply lg:max-w-[1440px] max-w-[85%];
+  @apply 2xl:max-w-[1440px] max-w-[85%];
 }
 .swiper-pagination-bullet {
   @apply transition duration-200;

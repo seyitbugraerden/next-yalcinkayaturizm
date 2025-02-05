@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-bg_sec text-white pt-0 lg:pt-4 pb-4">
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-4 py-12">
+      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-12 lg:gap-4 py-12">
         <div>
           <div className="flex justify-center items-center">
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
