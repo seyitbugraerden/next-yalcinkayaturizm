@@ -8,3 +8,7 @@ interface sectionTitleTypes {
 interface homeServiceTypes {
   text: string;
 }
+
+interface offerCardTypes {
+  features: any;
+}

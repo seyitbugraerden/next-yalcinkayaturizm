@@ -27,25 +27,35 @@ const Menu = () => {
             Hizmetlerimiz <MdKeyboardArrowDown />
           </span>
           <ul className="absolute top-4 hidden group-hover:block w-full z-50">
-            <div className="mt-4 bg-black rounded-xl shadow-sm shadow-primary pt-2 pb-4">
+            <div className="mt-4 bg-black w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Transfer Taşımacılığı
                 </Link>
               </li>
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Vip Taşımacılığı
                 </Link>
               </li>
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Turizm Taşımacılığı
                 </Link>
               </li>
               <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
                 <Link href="#" className="hover:!text-white">
-                  Text
+                  Filo Kiralama
+                </Link>
+              </li>
+              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+                <Link href="#" className="hover:!text-white">
+                  Personel Taşımacılığı
+                </Link>
+              </li>
+              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+                <Link href="#" className="hover:!text-white">
+                  A Grubu Seyahat Ajantesi
                 </Link>
               </li>
             </div>
