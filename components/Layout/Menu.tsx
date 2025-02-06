@@ -18,7 +18,13 @@ const Menu = () => {
         }`}
       >
         <div className="mx-auto lg:hidden">
-          <Image src="/logo.png" alt="logo" width={220} height={40} />
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={220}
+            height={40}
+            layout="responsive"
+          />
         </div>
         <li className="font-medium text-sm">
           <Link href="/">Ana Sayfa</Link>

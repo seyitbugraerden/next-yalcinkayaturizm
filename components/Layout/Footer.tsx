@@ -144,13 +144,13 @@ const Footer = () => {
               <div className="flex flex-col items-start">
                 <Link
                   href="tel:+905323445502"
-                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 px-4 block"
+                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 pe-4 block"
                 >
                   +90 532 344 55 02
                 </Link>{" "}
                 <Link
                   href="tel:+905323445502"
-                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 px-4 block"
+                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 pe-4 block"
                 >
                   +90 312 480 76 58
                 </Link>
