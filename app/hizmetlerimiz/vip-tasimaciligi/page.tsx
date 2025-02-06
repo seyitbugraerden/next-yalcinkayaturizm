@@ -1,6 +1,6 @@
 import AboutCard from "@/components/ui/AboutCard";
 import Banner from "@/components/ui/Banner";
-import { contact, mission } from "@/lib/data";
+import { mission } from "@/lib/data";
 import Image from "next/image";
 import React from "react";
 

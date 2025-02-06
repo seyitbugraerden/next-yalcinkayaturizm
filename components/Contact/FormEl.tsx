@@ -1,23 +1,25 @@
 "use client";
 
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 const FormEl = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 !w-full">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="flex flex-col gap-4 !w-full"
+      >
         <div className="flex flex-row items-start gap-6">
           <div className="flex flex-col items-start gap-1 w-full flex-1">
             <label className="text-white text-sm">Adı</label>
             <input
-              placeholder=""
+              placeholder="Ad"
               {...register("name", {
                 required: {
                   value: true,
@@ -35,7 +37,7 @@ const FormEl = () => {
           <div className="flex flex-col items-start gap-1 w-full flex-1">
             <label className="text-white text-sm">Soyad</label>
             <input
-              placeholder=""
+              placeholder="Soyad"
               {...register("surname", {
                 required: {
                   value: true,
@@ -55,7 +57,7 @@ const FormEl = () => {
           <label className="text-white text-sm">E-posta</label>
           <input
             type="email"
-            placeholder=""
+            placeholder="info@info.com"
             {...register("email", {
               required: {
                 value: true,
@@ -78,7 +80,7 @@ const FormEl = () => {
           <label className="text-white text-sm">Mesaj</label>
           <textarea
             rows={5}
-            placeholder=""
+            placeholder="Mesaj"
             {...register("subject", {
               required: {
                 value: true,

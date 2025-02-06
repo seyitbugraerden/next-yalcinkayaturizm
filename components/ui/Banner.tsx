@@ -7,7 +7,6 @@ import { SlArrowRight } from "react-icons/sl";
 
 const Banner = ({ title }: bannerTypes) => {
   const pathname = usePathname();
-  console.log(pathname.split("/"));
   return (
     <div className="relative flex flex-col justify-center items-center h-[400px]">
       <Image

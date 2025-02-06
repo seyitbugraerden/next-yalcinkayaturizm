@@ -26,3 +26,10 @@ interface paramsTypes {
 interface paramsChildTypes {
   slug: string;
 }
+
+interface Inputs {
+  name: string;
+  surname: string;
+  email: string;
+  subject: string;
+}

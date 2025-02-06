@@ -2,8 +2,7 @@ import Banner from "@/components/ui/Banner";
 import Image from "next/image";
 import React from "react";
 
-const page = async ({ params }: paramsTypes) => {
-  const slug = await params.slug;
+const page = async () => {
   return (
     <>
       <Banner title="Savunma Sanayi" />
