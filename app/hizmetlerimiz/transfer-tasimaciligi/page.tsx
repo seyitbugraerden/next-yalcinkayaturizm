@@ -1,8 +1,7 @@
-import AboutCard from "@/components/ui/AboutCard";
 import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
-import { features, mission } from "@/lib/data";
+import { features } from "@/lib/data";
 import Image from "next/image";
 import React from "react";
 
