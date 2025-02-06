@@ -27,7 +27,7 @@ const SwiperElement = () => {
           <Button />
         </div>
         <Image
-          src="https://img.alicdn.com/imgextra/i1/6000000003257/TB24OTrsmYTBKNjSZKbXXXJ8pXa_!!6000000003257-0-tbvideo.jpg"
+          src="/swiper1.webp"
           alt="Swiper Image"
           fill
           className="brightness-50 absolute top-0 left-0 w-full h-full -z-50 object-cover"
@@ -47,7 +47,7 @@ const SwiperElement = () => {
           <Button />
         </div>
         <Image
-          src="https://arbekovo.avangard-otel.ru/wp-content/uploads/2019/10/01.jpg"
+          src="/swiper2.webp"
           alt="Swiper Image"
           fill
           className="brightness-50 absolute top-0 left-0 w-full h-full -z-50 object-cover"
