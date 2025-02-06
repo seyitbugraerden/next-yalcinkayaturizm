@@ -7,20 +7,20 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="text-white bg-white">
-      <div className="text-white bg-bg">
+      <div className="text-white bg-primary">
         <div className="max-w-8xl mx-auto">
-          <div className="flex flex-col gap-6 lg:gap-4 md:flex-row items-center justify-between py-3 text-sm">
+          <div className="flex bg-whiteflex-row gap-6 lg:gap-4 md:flex-row items-center justify-between py-3 text-sm">
             <div className="flex flex-col lg:flex-row gap-6 items-center">
               <Link
                 href="mailto:yalcinkayanetturizm@hotmail.com"
-                className="flex flex-row items-center gap-2"
+                className="hidden lg:flex flex-row items-center gap-2 text-xs font-light"
               >
                 <IoMailSharp size={14} />
                 <span>yalcinkayanetturizm@hotmail.com</span>
               </Link>
               <Link
                 href="tel:+905323445502"
-                className="flex flex-row items-center gap-2"
+                className="flex flex-row items-center gap-2 text-xs font-light"
               >
                 <IoCall size={14} />
                 <span>+90 532 344 55 02</span>

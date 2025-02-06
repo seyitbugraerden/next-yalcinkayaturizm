@@ -33,7 +33,7 @@ section {
 }
 
 a:hover {
-  @apply text-primary transition duration-200;
+  @apply brightness-75 transition duration-200;
 }
 .bg_img{
   background-image: url("https://picsum.photos/1920/1080");

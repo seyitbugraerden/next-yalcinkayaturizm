@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const WhoAreWe = () => {
   return (
-    <section className="flex flex-col lg:flex-row gap-12 lg:gap-4 max-w-8xl mx-auto lg:pb-20">
+    <section className="flex flex-col lg:flex-row gap-12 lg:gap-12 max-w-8xl mx-auto lg:pb-20">
       <div className="flex-1 order-2 lg:order-1">
         <Image
           src="/about.webp"
           alt="Biz Kimiz"
           width={600}
           height={200}
-          className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[500px]"
+          className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
         />
       </div>
       <div className="flex-1 order-1 lg:order-2 flex">
