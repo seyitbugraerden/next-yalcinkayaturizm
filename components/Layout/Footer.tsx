@@ -26,6 +26,7 @@ const Footer = () => {
             <Link
               href="https://www.facebook.com/people/Yal%C3%A7%C4%B1nkaya-Tur/100082860146198/"
               target="_blank"
+              aria-label="Facebook sayfamızı ziyaret edin"
               className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
             >
               <FaFacebookF size={18} />
@@ -33,6 +34,7 @@ const Footer = () => {
             <Link
               href="https://www.instagram.com/yalcinkayatur/?hl=tr"
               target="_blank"
+              aria-label="Instagram sayfamızı ziyaret edin"
               className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
             >
               <IoLogoInstagram size={18} />
@@ -40,6 +42,7 @@ const Footer = () => {
             <Link
               href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
               target="_blank"
+              aria-label="Tiktok sayfamızı ziyaret edin"
               className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
             >
               <FaTiktok size={18} />
@@ -47,6 +50,7 @@ const Footer = () => {
             <Link
               href="https://www.linkedin.com/company/yalçınkaya-turizm/about/"
               target="_blank"
+              aria-label="Linkedin sayfamızı ziyaret edin"
               className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
             >
               <FaLinkedinIn size={18} />

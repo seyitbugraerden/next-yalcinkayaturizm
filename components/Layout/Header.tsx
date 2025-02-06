@@ -14,6 +14,7 @@ const Header = () => {
               <Link
                 href="mailto:yalcinkayanetturizm@hotmail.com"
                 className="hidden lg:flex flex-row items-center gap-2 text-xs font-light"
+                aria-label="E-Posta Adresi"
               >
                 <IoMailSharp size={14} />
                 <span>yalcinkayanetturizm@hotmail.com</span>
@@ -21,6 +22,7 @@ const Header = () => {
               <Link
                 href="tel:+905323445502"
                 className="flex flex-row items-center gap-2 text-xs font-light"
+                aria-label="Telefon numarası"
               >
                 <IoCall size={14} />
                 <span>+90 532 344 55 02</span>
@@ -30,24 +32,29 @@ const Header = () => {
               <Link
                 href="https://www.facebook.com/people/Yal%C3%A7%C4%B1nkaya-Tur/100082860146198/"
                 target="_blank"
+                aria-label="Facebook sayfamızı ziyaret edin"
               >
                 <FaFacebookF size={16} />
               </Link>
+
               <Link
                 href="https://www.instagram.com/yalcinkayatur/?hl=tr"
                 target="_blank"
+                aria-label="Instagram sayfamızı ziyaret edin"
               >
                 <IoLogoInstagram size={16} />
               </Link>
               <Link
                 href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
                 target="_blank"
+                aria-label="Tiktok sayfamızı ziyaret edin"
               >
                 <FaTiktok size={16} />
               </Link>
               <Link
                 href="https://www.linkedin.com/company/yalçınkaya-turizm/about/"
                 target="_blank"
+                aria-label="Linkedin sayfamızı ziyaret edin"
               >
                 <FaLinkedinIn size={16} />
               </Link>
