@@ -166,6 +166,9 @@ const Footer = () => {
           <Link href="#" className="text-sm text-white/50">
             KVKK
           </Link>
+          <Link href="#" className="text-sm text-white/50">
+            KOZAK Reklam Ajansı - Millenium Yazılım
+          </Link>
         </div>
       </div>
     </footer>

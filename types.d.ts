@@ -12,3 +12,17 @@ interface homeServiceTypes {
 interface offerCardTypes {
   features: any;
 }
+
+interface contactCardTypes {
+  features: any;
+}
+interface bannerTypes {
+  title: string;
+}
+
+interface paramsTypes {
+  params: paramsChildTypes;
+}
+interface paramsChildTypes {
+  slug: string;
+}
