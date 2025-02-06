@@ -1,6 +1,8 @@
 import AboutCard from "@/components/ui/AboutCard";
 import Banner from "@/components/ui/Banner";
-import { mission } from "@/lib/data";
+import OfferCard from "@/components/ui/OfferCard";
+import SectionTitle from "@/components/ui/SectionTitle";
+import { features, mission } from "@/lib/data";
 import Image from "next/image";
 import React from "react";
 
@@ -40,16 +42,19 @@ const page = () => {
           </p>
         </div>
       </section>
-      <section className="bg-bg_sec mb-[1px]">
-        <h3 className="uppercase text-white text-center text-4xl font-bold mb-12">
-          Misyon - Vizyon
-        </h3>
-        <div className="flex flex-col gap-12 lg:flex-row items-stretch max-w-6xl mx-auto">
-          {mission.map((_, index) => (
-            <AboutCard key={index} features={_} />
-          ))}
-        </div>
-      </section>
+      <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
+      <SectionTitle
+        white
+        title="NEDEN BİZİ SEÇMELİSİNİZ ?"
+        mainTitle=""
+        description=""
+      />
+      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        {features.map((_, index) => (
+          <OfferCard key={index} features={_} />
+        ))}
+      </div>
+    </section>
     </>
   );
 };
