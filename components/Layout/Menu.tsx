@@ -21,50 +21,50 @@ const Menu = () => {
           <Image src="/logo.png" alt="logo" width={220} height={40} />
         </div>
         <li className="font-medium text-sm">
-          <Link href="#">Ana Sayfa</Link>
+          <Link href="/">Ana Sayfa</Link>
         </li>
         <li className="relative group">
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
             Hizmetlerimiz <MdKeyboardArrowDown />
           </span>
           <ul className="absolute top-4 hidden group-hover:block w-full z-50">
-            <div className="mt-4 bg-black w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+            <div className="mt-4 bg-[#FAFAFA] w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
+              <li className="px-4  hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/hizmetlerimiz/transfer-tasimaciligi"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Transfer Taşımacılığı
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/hizmetlerimiz/vip-tasimaciligi"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Vip Taşımacılığı
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/hizmetlerimiz/turizm-tasimaciligi"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Turizm Taşımacılığı
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/hizmetlerimiz/filo-kiralama"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Filo Kiralama
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/hizmetlerimiz/a-grubu-seyahat-ajantesi"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   A Grubu Seyahat Ajantesi
                 </Link>
@@ -72,32 +72,32 @@ const Menu = () => {
             </div>
           </ul>
         </li>
-        <li className="font-medium text-sm relative group">
+        <li className="relative group">
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
             Referanslarımız <MdKeyboardArrowDown />
           </span>
           <ul className="absolute top-4 hidden group-hover:block w-full z-50">
-            <div className="mt-4 bg-black rounded-xl shadow-sm shadow-primary pt-2 pb-4">
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+            <div className="mt-4 bg-[#FAFAFA] w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
+              <li className="px-4  hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/referanslarimiz/savunma-sanayi"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Savunma Sanayi
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/referanslarimiz/resmi-kurumlar"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Resmi Kurumlar
                 </Link>
               </li>
-              <li className="px-4 py-1 hover:bg-bg transition duration-200 text-white">
+              <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
                   href="/referanslarimiz/diger-kuruluslar"
-                  className="hover:!text-white"
+                  className="hover:!text-white hover:!brightness-100"
                 >
                   Diğer Kuruluşlar
                 </Link>

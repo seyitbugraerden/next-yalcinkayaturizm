@@ -29,7 +29,7 @@ const Banner = ({ title }: bannerTypes) => {
             <SlArrowRight size={12} />
             <span className="cursor-default">
               {pathname.split("/")[2].charAt(0).toUpperCase()}
-              {pathname.split("/")[2].slice(1)}
+              {pathname.split("/")[2].slice(1).replace("-", " ")}
             </span>
           </>
         ) : (

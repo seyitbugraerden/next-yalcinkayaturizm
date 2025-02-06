@@ -6,7 +6,7 @@ const page = async ({ params }: paramsTypes) => {
   const slug = await params.slug;
   return (
     <>
-      <Banner title={slug.charAt(0).toUpperCase() + slug.slice(1)} />
+      <Banner title="Resmi Kurumlar" />
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 max-w-8xl mx-auto gap-12">
         {Array.from({ length: 12 }).map((_, index) => (
           <Image
