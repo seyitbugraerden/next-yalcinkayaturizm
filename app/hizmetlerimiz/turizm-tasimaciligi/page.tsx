@@ -1,3 +1,4 @@
+import FormEl from "@/components/Contact/FormEl";
 import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
@@ -42,18 +43,24 @@ const page = () => {
         </div>
       </section>
       <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
-      <SectionTitle
-        white
-        title="NEDEN BİZİ SEÇMELİSİNİZ ?"
-        mainTitle=""
-        description=""
-      />
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-        {features.map((_, index) => (
-          <OfferCard key={index} features={_} />
-        ))}
-      </div>
-    </section>
+        <SectionTitle
+          white
+          title="NEDEN BİZİ SEÇMELİSİNİZ ?"
+          mainTitle=""
+          description=""
+        />
+        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {features.map((_, index) => (
+            <OfferCard key={index} features={_} />
+          ))}
+        </div>
+      </section>{" "}
+      <section className="bg-bg_sec mb-[1px]">
+        <SectionTitle white title="Bize Ulaşın" mainTitle="" description="" />
+        <div className="max-w-[85%] sm:max-w-xl mx-auto">
+          <FormEl />
+        </div>
+      </section>
     </>
   );
 };

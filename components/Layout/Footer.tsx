@@ -63,22 +63,27 @@ const Footer = () => {
           </h5>
           <ul className="flex flex-col items-start gap-3 mt-4 font-light text-sm">
             <li>
-              <Link href="#">Transfer Taşımacılığı</Link>
+              <Link href="/hizmetlerimiz/transfer-tasimaciligi">
+                Transfer Taşımacılığı
+              </Link>
             </li>
             <li>
-              <Link href="#">Vip Taşımacılığı</Link>
+              <Link href="/hizmetlerimiz/vip-tasimaciligi">
+                Vip Taşımacılığı
+              </Link>
             </li>
             <li>
-              <Link href="#">Turizm Taşımacılığı</Link>
+              <Link href="/hizmetlerimiz/turizm-tasimaciligi">
+                Turizm Taşımacılığı
+              </Link>
             </li>{" "}
             <li>
-              <Link href="#">Filo Kiralama</Link>
+              <Link href="/hizmetlerimiz/filo-kiralama">Filo Kiralama</Link>
             </li>
             <li>
-              <Link href="#">Personel Taşımacılığı</Link>
-            </li>
-            <li>
-              <Link href="#">A Grubu Seyahat Ajantesi</Link>
+              <Link href="/hizmetlerimiz/a-grubu-seyahat-ajantesi">
+                A Grubu Seyahat Ajantesi
+              </Link>
             </li>
           </ul>
         </div>
@@ -88,13 +93,15 @@ const Footer = () => {
           </h5>
           <ul className="flex flex-col items-start gap-3 mt-4 font-light text-sm">
             <li>
-              <Link href="#">Savunma Sanayi</Link>
+              <Link href="/referanslarimiz/savunma-sanayi">Savunma Sanayi</Link>
             </li>
             <li>
-              <Link href="#">Resmi Kurumlar</Link>
+              <Link href="/referanslarimiz/resmi-kurumlar">Resmi Kurumlar</Link>
             </li>
             <li>
-              <Link href="#">Diğer Kuruluşlar</Link>
+              <Link href="/referanslarimiz/diger-kuruluslar">
+                Diğer Kuruluşlar
+              </Link>
             </li>
           </ul>
         </div>
@@ -144,13 +151,13 @@ const Footer = () => {
               <div className="flex flex-col items-start">
                 <Link
                   href="tel:+905323445502"
-                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 pe-4 block"
+                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-1 pe-4 block"
                 >
                   +90 532 344 55 02
                 </Link>{" "}
                 <Link
                   href="tel:+905323445502"
-                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-3 pe-4 block"
+                  className="font-light w-full whitespace-nowrap text-nowrap text-sm py-1 pe-4 block"
                 >
                   +90 312 480 76 58
                 </Link>
