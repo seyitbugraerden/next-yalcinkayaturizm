@@ -1,6 +1,14 @@
 import Banner from "@/components/ui/Banner";
+import { metadatas } from "@/lib/tr";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: metadatas.referans_diger_kuruluslar.meta_title,
+  description: metadatas.referans_diger_kuruluslar.meta_description,
+  alternates: { canonical: metadatas.referans_diger_kuruluslar.canonical },
+};
 
 const page = async () => {
   return (

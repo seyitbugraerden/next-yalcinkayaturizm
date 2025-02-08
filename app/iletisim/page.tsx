@@ -2,7 +2,15 @@ import FormEl from "@/components/Contact/FormEl";
 import Banner from "@/components/ui/Banner";
 import ContactCard from "@/components/ui/ContactCard";
 import { contact } from "@/lib/data";
+import { metadatas } from "@/lib/tr";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: metadatas.iletisim.meta_title,
+  description: metadatas.iletisim.meta_description,
+  alternates: { canonical: metadatas.iletisim.canonical },
+};
 
 const page = () => {
   return (

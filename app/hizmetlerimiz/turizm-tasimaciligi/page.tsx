@@ -3,14 +3,22 @@ import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { features } from "@/lib/data";
+import { metadatas } from "@/lib/tr";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: metadatas.turizm_tasimaciligi.meta_title,
+  description: metadatas.turizm_tasimaciligi.meta_description,
+  alternates: { canonical: metadatas.turizm_tasimaciligi.canonical },
+};
 
 const page = () => {
   return (
     <>
-      <Banner title="Turizm Taşımacılığı" />
-      <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <Banner title="Turizm Taşımacılığı"  />
+      <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12" >
         <Image
           src="/about.webp"
           alt="Biz Kimiz"

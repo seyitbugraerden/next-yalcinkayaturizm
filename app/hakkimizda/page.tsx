@@ -1,8 +1,16 @@
 import AboutCard from "@/components/ui/AboutCard";
 import Banner from "@/components/ui/Banner";
 import { mission } from "@/lib/data";
+import { metadatas } from "@/lib/tr";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: metadatas.genel_bakis.meta_title,
+  description: metadatas.genel_bakis.meta_description,
+  alternates: { canonical: metadatas.genel_bakis.canonical },
+};
 
 const page = () => {
   return (

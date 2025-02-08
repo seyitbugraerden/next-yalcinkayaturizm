@@ -3,8 +3,16 @@ import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { features } from "@/lib/data";
+import { metadatas } from "@/lib/tr";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: metadatas.vip_tasimaciligi.meta_title,
+  description: metadatas.vip_tasimaciligi.meta_description,
+  alternates: { canonical: metadatas.vip_tasimaciligi.canonical },
+};
 
 const page = () => {
   return (
