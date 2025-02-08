@@ -7,7 +7,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="text-white bg-white">
-      <div className="text-white bg-primary">
+      <div className="text-white bg-bg_sec">
         <div className="max-w-8xl mx-auto">
           <div className="flex bg-whiteflex-row gap-6 lg:gap-4 md:flex-row items-center justify-between py-3 text-sm">
             <div className="flex flex-col lg:flex-row gap-6 items-center">
