@@ -7,9 +7,9 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: metadatas.genel_bakis.meta_title,
-  description: metadatas.genel_bakis.meta_description,
-  alternates: { canonical: metadatas.genel_bakis.canonical },
+  title: metadatas.home.meta_title,
+  description: metadatas.home.meta_description,
+  alternates: { canonical: metadatas.home.canonical },
 };
 
 const page = () => {
@@ -25,10 +25,7 @@ const page = () => {
           className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
         />
         <div>
-          <h2 className="uppercase text-primary text-4xl font-bold mb-4">
-            Biz Kimiz?
-          </h2>
-          <p className="flex-1 text-text">
+          <p className="flex-1 text-text text-justify">
             <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
             taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
             bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize

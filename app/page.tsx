@@ -8,9 +8,9 @@ import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: metadatas.genel_bakis.meta_title,
-  description: metadatas.genel_bakis.meta_description,
-  alternates: { canonical: metadatas.genel_bakis.canonical },
+  title: metadatas.home.meta_title,
+  description: metadatas.home.meta_description,
+  alternates: { canonical: metadatas.home.canonical },
 };
 
 export default function Home() {

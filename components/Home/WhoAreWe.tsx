@@ -45,7 +45,10 @@ const WhoAreWe = () => {
               ederek, sizlere bugün ve gelecekte hizmet vermekten gurur duyarız.
             </p>{" "}
             <br />
-            <Link href="#" className="text-sm text-[#575757] font-semibold">
+            <Link
+              href="tel:+905323445502"
+              className="text-sm text-[#575757] font-semibold"
+            >
               İletişim için hemen arayın!
             </Link>
           </div>

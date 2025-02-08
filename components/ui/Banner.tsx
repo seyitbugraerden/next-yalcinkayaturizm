@@ -7,6 +7,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 const Banner = ({ title }: bannerTypes) => {
   const pathname = usePathname();
+  console.log(pathname.split("/")[1].slice(1));
   return (
     <div className="relative flex flex-col justify-center items-center h-[400px]">
       <Image
@@ -23,18 +24,34 @@ const Banner = ({ title }: bannerTypes) => {
           <>
             <span className="cursor-default">
               {pathname.split("/")[1].charAt(0).toUpperCase()}
-              {pathname.split("/")[1].slice(1)}
+              {pathname
+                .split("/")[1]
+                .slice(1)
+                .replace("eferanslarimiz", "eferanslarımız")}
             </span>
             <SlArrowRight size={12} />
             <span className="cursor-default">
               {pathname.split("/")[2].charAt(0).toUpperCase()}
-              {pathname.split("/")[2].slice(1).replace("-", " ")}
+              {pathname
+                .split("/")[2]
+                .slice(1)
+                .replace(/-/g, " ")
+                .replace("tasimaciligi", "Taşımacılığı")
+                .replace("kiralama", "Kiralama")
+                .replace("grubu seyahat acentesi", "Grubu Seyahat Acentesi")
+                .replace("iger", "iğer")
+                .replace("kuruluslar", "Kuruluşlar")
+                .replace("kurumlar", "Kurumlar")
+                .replace("sanayi", "Sanayi")}
             </span>
           </>
         ) : (
           <span className="cursor-default">
-            {pathname.charAt(1).toUpperCase()}
-            {pathname.slice(2)}
+            {pathname.charAt(1).toUpperCase().replace("I", "İ")}
+            {pathname
+              .slice(2)
+              .replace("akkimizda", "akkımızda")
+              .replace("letisim", "letişim")}
           </span>
         )}
       </div>

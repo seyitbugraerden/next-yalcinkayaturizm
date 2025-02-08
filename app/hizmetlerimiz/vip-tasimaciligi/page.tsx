@@ -27,26 +27,13 @@ const page = () => {
           className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
         />
         <div>
-          <h2 className="uppercase text-primary text-4xl font-bold mb-4">
-            Biz Kimiz?
-          </h2>
-          <p className="flex-1 text-text">
-            <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
-            taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
-            bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
-            hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda başlıca
-            ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler doğrultusunda
-            sizlere; şehir içi ve şehir dışı, ulaşım ve transfer faliyetlerini,
-            otobüs, minibüs, midibüs, vip minibüs ve vip otomobil araçlar ile
-            hizmet vermekteyiz. Hizmetlerimiz resmi ve özel kurumların şehir içi
-            ve şehir dışındaki ulaşım faaliyetlerini, personel ve öğrenci servis
-            taşıma işlemlerini. Özel ve resmi kurum kuruluşların binek otomobil,
-            4x4 pick-up, hafif ticari araç ihtyaçlarını karşılamayı
-            kapsamaktadır. Başarı ve devamlılığın teminatı hizmette dürüstlük ve
-            kalitedir. Bu prensibi ilke olarak benimseyen Net Seyahat Turizm
-            olarak göstermiş olduğunuz yakın ilgi ve desteğinizden ötürü
-            teşekkür ederek, sizlere bugün ve gelecekte hizmet vermekten gurur
-            duyarız.
+          <p className="flex-1 text-text text-justify">
+            Farklı ulaşım ihtiyaçlarınıza cevap verebilmek adına filomuzu
+            sürekli genç tutarak son model, özel iç tasarımlı, teknolojik
+            araçlarımızla deneyimli profesyonel uzman kadromuz ile VIP
+            Taşımacılık hizmetlerinizi sağlamaktayız. Günümüzde para kadar
+            değerli vaktinize değer kaybettirmeden zamanında güvenli ve konforlu
+            bir şekilde sizlere hizmet vermeyi hedefliyoruz.
           </p>
         </div>
       </section>
@@ -61,12 +48,6 @@ const page = () => {
           {features.map((_, index) => (
             <OfferCard key={index} features={_} />
           ))}
-        </div>
-      </section>{" "}
-      <section className="bg-bg_sec mb-[1px]">
-        <SectionTitle white title="Bize Ulaşın" mainTitle="" description="" />
-        <div className="max-w-[85%] sm:max-w-xl mx-auto">
-          <FormEl />
         </div>
       </section>
     </>

@@ -69,10 +69,10 @@ const Menu = () => {
               </li>
               <li className="px-4 hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
-                  href="/hizmetlerimiz/a-grubu-seyahat-ajantesi"
+                  href="/hizmetlerimiz/a-grubu-seyahat-acentesi"
                   className="hover:!text-white hover:!brightness-100"
                 >
-                  A Grubu Seyahat Ajantesi
+                  A Grubu Seyahat Acentesi
                 </Link>
               </li>
             </div>

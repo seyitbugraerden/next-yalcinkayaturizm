@@ -81,7 +81,7 @@ const Footer = () => {
               <Link href="/hizmetlerimiz/filo-kiralama">Filo Kiralama</Link>
             </li>
             <li>
-              <Link href="/hizmetlerimiz/a-grubu-seyahat-ajantesi">
+              <Link href="/hizmetlerimiz/a-grubu-seyahat-acentesi">
                 A Grubu Seyahat Ajantesi
               </Link>
             </li>
@@ -106,9 +106,13 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
+          <Link
+            type="h5"
+            href="/hakkimizda"
+            className="font-semibold text-xl flex flex-row items-center gap-2"
+          >
             Hakkımızda
-          </h5>
+          </Link>
         </div>
         <div>
           <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
@@ -171,14 +175,13 @@ const Footer = () => {
           Copy@ 2024, All Right Reserved
         </div>
         <div className="flex flex-row items-center gap-3">
-          <Link href="#" className="text-sm text-white/50">
-            Gizlilik Politikası
-          </Link>
-          <Link href="#" className="text-sm text-white/50">
-            KVKK
-          </Link>
-          <Link href="#" className="text-sm text-white/50">
-            KOZAK Reklam Ajansı - Millenium Yazılım
+          <span className="text-sm text-white/50">KOZAK Reklam Ajansı -</span>
+          <Link
+            href="https://www.milleniumyazilim.com.tr/"
+            target="_blank"
+            className="text-sm text-white/50"
+          >
+            Millenium Yazılım
           </Link>
         </div>
       </div>

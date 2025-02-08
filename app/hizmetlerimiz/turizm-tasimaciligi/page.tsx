@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner title="Turizm Taşımacılığı"  />
-      <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12" >
+      <Banner title="Turizm Taşımacılığı" />
+      <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
           src="/about.webp"
           alt="Biz Kimiz"
@@ -27,26 +27,18 @@ const page = () => {
           className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
         />
         <div>
-          <h2 className="uppercase text-primary text-4xl font-bold mb-4">
-            Biz Kimiz?
-          </h2>
-          <p className="flex-1 text-text">
-            <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
-            taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
-            bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
-            hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda başlıca
-            ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler doğrultusunda
-            sizlere; şehir içi ve şehir dışı, ulaşım ve transfer faliyetlerini,
-            otobüs, minibüs, midibüs, vip minibüs ve vip otomobil araçlar ile
-            hizmet vermekteyiz. Hizmetlerimiz resmi ve özel kurumların şehir içi
-            ve şehir dışındaki ulaşım faaliyetlerini, personel ve öğrenci servis
-            taşıma işlemlerini. Özel ve resmi kurum kuruluşların binek otomobil,
-            4x4 pick-up, hafif ticari araç ihtyaçlarını karşılamayı
-            kapsamaktadır. Başarı ve devamlılığın teminatı hizmette dürüstlük ve
-            kalitedir. Bu prensibi ilke olarak benimseyen Net Seyahat Turizm
-            olarak göstermiş olduğunuz yakın ilgi ve desteğinizden ötürü
-            teşekkür ederek, sizlere bugün ve gelecekte hizmet vermekten gurur
-            duyarız.
+          <p className="flex-1 text-text text-justify">
+            Her köşesinden tarih ve kültür fışkıran güzel yurdumuzun harika
+            yerlerini keşfetmek için düzenleyeceğiniz kısa veya uzun süreli
+            turlara Net Seyehat güvencesiyle çıkabilirsiniz. Her türlü kültür ve
+            inanç gezileri, yerli ve yabancı turist grupları için seyahat
+            acenteleri tarafından düzenlenen Türkiye ve yurtdışına araç temin
+            edebilirsiniz. Bu gezilerinizde lüks, modern araç filosuyla, her
+            konuda deneyimi olan sürücüleriyle bilgili ve bilgilendirici
+            rehberleriyle, güvenli ve konforlu bir yolculuk seçeneği sunuyor.
+            Özel grupların yurt içi kültür turlarına araç temini hizmeti
+            sağladığımız gibi, yerli ve yabancı seyahat acentelerinin tur
+            programlarında da talep edilen tip ve özellikte araç sağlanmaktadır.
           </p>
         </div>
       </section>

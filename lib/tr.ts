@@ -1,17 +1,10 @@
 export const metadatas = {
-  genel_bakis: {
-    category: "Genel Bakış",
-    meta_title: "Güvenilir Taşımacılık Hizmetleri | Net Seyahat Turizm",
-    meta_description:
-      "Net Seyahat Turizm Ltd. Şti, 7/24 hizmet anlayışı, modern araç filosu, teknolojik altyapısı ve geniş hizmet yelpazesi ile resmi ve özel sektörlere güven, kalite ve konfor odaklı taşımacılık çözümleri sunar.",
-    canonical: "https://yalcinkayanetturizm.com/genel-bakis",
-  },
   a_grubu: {
-    category: "A Grubu Seyahat Ajantesi",
-    meta_title: "A Grubu Seyahat Ajantesi Hizmetleri | Net Seyahat Turizm",
-    meta_description: "",
-    canonical:
-      "https://yalcinkayanetturizm.com/hizmetlerimiz/a-grubu-seyahat-ajantesi",
+    category: "Genel Bakış",
+    meta_title: "A Grubu Seyahat Acentesi | Net Seyahat Turizm",
+    meta_description:
+      "Ankara merkezli A Grubu Seyahat Acentesi hizmetlerimiz, güvenli ve konforlu havalimanı, otel ve şehir içi transfer çözümleri ile müşterilerimizin tüm ulaşım ihtiyaçlarına profesyonel cevap verir.",
+    canonical: "https://yalcinkayanetturizm.com/genel-bakis",
   },
   transfer_tasimaciligi: {
     category: "Transfer Taşımacılığı",
@@ -78,5 +71,12 @@ export const metadatas = {
     meta_description:
       "Net Seyahat Turizm ile iletişime geçin. Hizmetlerimiz hakkında detaylı bilgi alın veya rezervasyon yapın.",
     canonical: "https://yalcinkayanetturizm.com/iletisim",
+  },
+  home: {
+    category: "Genel Bakış",
+    meta_title: "Güvenli ve Konforlu Transfer Hizmetleri | Net Seyahat Turizm",
+    meta_description:
+      "Net Seyahat Turizm, Ankara'da 7/24 güvenli, konforlu ve zamanında havaalanı, otel ve şehir içi transfer hizmetleri sunarak seyahatinizi kolaylaştırır.",
+    canonical: "https://yalcinkayanetturizm.com/genel-bakis",
   },
 };
