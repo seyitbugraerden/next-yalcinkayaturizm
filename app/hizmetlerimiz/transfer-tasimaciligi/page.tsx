@@ -1,4 +1,3 @@
-import FormEl from "@/components/Contact/FormEl";
 import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
@@ -29,8 +28,8 @@ const page = () => {
         <div>
           <p className="flex-1 text-text text-justify">
             Sektöründe lider olmayı hedefleyen, yeniliklere öncülük yapan Net
-            Seyahat, Ankara'da başladığı Transfer taşımacılığı hizmetlerine,
-            maksimum müşteri memnuniyeti anlayışıyla 7 / 24 yurdumuzun her
+            Seyahat, Ankara&aposda başladığı Transfer taşımacılığı hizmetlerine,
+            maksimum müşteri memnuniyeti anlayışıyla 7/24 yurdumuzun her
             noktasına hizmet vermektedir. Transferlerinizi Güvenilir, Konfor ve
             Huzur dolu Seyahat tadında gerçekleştirip Havalimanı ve Otel
             Transferleri hizmetleri ile Yurt içi Transferlerinizi sağlamaktayız.

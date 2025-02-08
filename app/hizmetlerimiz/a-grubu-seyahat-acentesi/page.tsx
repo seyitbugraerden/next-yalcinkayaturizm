@@ -28,14 +28,14 @@ const page = () => {
         <div>
           <p className="flex-1 text-text text-justify">
             Sektöründe öncü olmayı hedefleyen A Grubu Seyahat Acentesi,
-            Ankara’da başladığı transfer taşımacılığı hizmetleri ile 7/24
+            Ankara&aposda başladığı transfer taşımacılığı hizmetleri ile 7/24
             güvenli ve konforlu seyahat deneyimi sunmaktadır. Müşteri
             memnuniyetini her şeyin önünde tutarak, yurdumuzun her noktasına
             kesintisiz hizmet sağlıyoruz. Hizmetlerimiz: Havaalanı Transferi:
             Uçuşlarınızın saatine göre zamanında ve güvenli bir şekilde
             havalimanına transferinizi gerçekleştiriyoruz. Otel Transferi:
             Otelden istediğiniz noktaya rahat ve konforlu bir şekilde seyahat
-            etmenizi sağlıyoruz. Yurtiçi Transfer: Türkiye'nin dört bir yanına
+            etmenizi sağlıyoruz. Yurtiçi Transfer: Türkiye&aposnin dört bir yanına
             kesintisiz transfer hizmeti sunuyoruz. A Grubu Seyahat Acentesi
             olarak, her transferi güvenli, konforlu ve huzur dolu bir seyahat
             deneyimi sunarak gerçekleştiriyoruz. İhtiyaçlarınıza en uygun
