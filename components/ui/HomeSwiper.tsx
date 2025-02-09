@@ -38,7 +38,7 @@ const HomeSwiper = () => {
             spaceBetween: 30,
           },
           1280: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 50,
           },
         }}
@@ -78,13 +78,6 @@ const HomeSwiper = () => {
             text="A Grubu Seyahat Acentesi"
             imgEl="/hizmet_kartlar/a.webp"
             linkEl="/hizmetlerimiz/a-grubu-seyahat-acentesi"
-          />
-        </SwiperSlide>
-        <SwiperSlide className="hidden lg:block">
-          <ServiceCard
-            text="Transfer Taşımacılığı"
-            imgEl="/hizmet_kartlar/transfer.webp"
-            linkEl="/hizmetlerimiz/transfer-tasimaciligi"
           />
         </SwiperSlide>
       </Swiper>

@@ -41,7 +41,7 @@ const ReferanceSwiper = () => {
           },
         }}
         spaceBetween={30}
-        className="mySwiper h-[240px] px-44"
+        className="mySwiper h-[200px] px-44"
       >
         <SwiperSlide>
           <Image
