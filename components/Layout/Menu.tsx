@@ -33,7 +33,7 @@ const Menu = () => {
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
             Hizmetlerimiz <MdKeyboardArrowDown />
           </span>
-          <ul className="absolute top-4 block pointer-events-none group-hover:pointer-events-auto opacity-0 group-hover:opacity-100 transition duration-300 w-full z-50">
+          <ul className="absolute top-4 hidden group-hover:block w-full z-50">
             <div className="mt-4 bg-[#FAFAFA] w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
               <li className="px-4  hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
@@ -82,7 +82,7 @@ const Menu = () => {
           <span className="flex flex-row items-center gap-1 group-hover:text-primary transition duration-200 font-medium text-sm cursor-pointer">
             Referanslarımız <MdKeyboardArrowDown />
           </span>
-          <ul className="absolute top-4 block pointer-events-none group-hover:pointer-events-auto opacity-0 group-hover:opacity-100 transition duration-300 w-full z-50">
+          <ul className="absolute top-4 hidden group-hover:block w-full z-50">
             <div className="mt-4 bg-[#FAFAFA] w-full lg:min-w-[200px] rounded-xl shadow-sm shadow-primary pt-2 pb-4">
               <li className="px-4  hover:bg-bg transition duration-200 text-black hover:text-white py-2">
                 <Link
