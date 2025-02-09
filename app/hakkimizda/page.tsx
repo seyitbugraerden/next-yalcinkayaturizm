@@ -15,10 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner
-        title="Hakkımızda"
-        imgEl="/alt_sayfalar_slider/hakkimizda.webp"
-      />
+      <Banner title="Hakkımızda" imgEl="/alt_sayfalar_slider/hakkimizda.webp" />
       <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
           src="/about.webp"
@@ -29,7 +26,7 @@ const page = () => {
         />
         <div>
           <p className="flex-1 text-text text-justify">
-            <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
+            <strong>Yalçınkaya </strong>Net Turizm Ltd. Şti olarak turizm ve
             taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
             bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
             hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda başlıca

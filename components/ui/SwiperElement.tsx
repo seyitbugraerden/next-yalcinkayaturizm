@@ -27,9 +27,8 @@ const SwiperElement = () => {
           <p className="text-sm text-white max-w-xl leading-6">
             Transfer taşımacılığı, VİP taşımacılığı, turizim taşımacılığı, filo
             kiralama, A grubu seyahat acentesi gibi hizmetlerimizle en iyi
-            ulaşım çözümlerini sizlere sunuyoruz.{" "}
-            <strong>Net Seyahat Turizm</strong> ile her yolculuğunuz keyifli ve
-            sorunsuz olsun!
+            ulaşım çözümlerini sizlere sunuyoruz. <strong>Yalçınkaya </strong>{" "}
+            Net Turizm ile her yolculuğunuz keyifli ve sorunsuz olsun!
           </p>
           <Button linkEl="/hizmetlerimiz/transfer-tasimaciligi" />
         </div>
@@ -47,7 +46,7 @@ const SwiperElement = () => {
           </h2>
           <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
           <p className="text-sm text-white max-w-xl leading-6">
-            <strong>Yalçın Kaya Net Seyahat Turizm</strong> ile şehir içi ve
+            <strong>Yalçınlaya</strong> Net Turizm ile şehir içi ve
             şehir dışı yolculuklarınızı güvenli, konforlu ve zamanında
             gerçekleştirin. Profesyonel ekibimizle daima yanınızdayız!
           </p>

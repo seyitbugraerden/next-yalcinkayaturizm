@@ -21,7 +21,7 @@ const WhoAreWe = () => {
           <div className="text-4xl font-bold"></div>
           <div className="mt-4 text-justify">
             <p className="text-sm text-[#575757]">
-              <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
+              <strong>Yalçınkaya</strong> Net Turizm Ltd. Şti olarak turizm ve
               taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
               bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
               hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda
@@ -41,7 +41,7 @@ const WhoAreWe = () => {
             <p className="text-sm text-[#575757]">
               Başarı ve devamlılığın teminatı hizmette dürüstlük ve kalitedir.
               Bu prensibi ilke olarak benimseyen{" "}
-              <strong>Net Seyahat Turizm</strong> olarak göstermiş olduğunuz
+              <strong>Yalçınkaya</strong> Net Turizm olarak göstermiş olduğunuz
               yakın ilgi ve desteğinizden ötürü teşekkür ederek, sizlere bugün
               ve gelecekte hizmet vermekten gurur duyarız.
             </p>{" "}

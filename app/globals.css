@@ -14,7 +14,7 @@ section {
     url("../public/bg_fixed.webp");
   background-attachment: fixed;
   background-size: cover;
-  background-position-x: center
+  background-position-x: center;
 }
 .home_slider .swiper-pagination-bullet {
   @apply bg-white;
@@ -35,7 +35,7 @@ section {
 a:hover {
   @apply brightness-75 transition duration-200;
 }
-.bg_img{
+.bg_img {
   background-image: url("https://picsum.photos/1920/1080");
   height: 100dvh;
 }

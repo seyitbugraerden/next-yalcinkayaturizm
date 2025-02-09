@@ -18,8 +18,8 @@ const Footer = () => {
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
           </div>
           <p className="mt-4 text-sm text-white/50">
-            <strong>Net Seyahat Turizm</strong> olarak şehir içi ve şehir dışı
-            ulaşım, transfer, personel ve öğrenci taşımacılığı hizmetleri
+            <strong>Yalçınkaya </strong> Net Turizm olarak şehir içi ve şehir
+            dışı ulaşım, transfer, personel ve öğrenci taşımacılığı hizmetleri
             sunuyoruz. Güvenli, konforlu ve kaliteli taşımacılık için buradayız!
           </p>
           <div className="flex flex-row justify-center items-center gap-3">
@@ -152,8 +152,8 @@ const Footer = () => {
       </div>
       <div className="max-w-8xl mx-auto border-t border-white/30 pt-3 mt-6 flex flex-col lg:flex-row gap-6 lg:gap-0 items-center justify-between">
         <div className="text-sm text-white/50 lg:text-nowrap">
-          Telif Hakları © 2025 {" "}
-          <strong>Net Seyahat Turizm Ltd. Şti</strong> tarafından saklıdır.
+          Telif Hakları © 2025 <strong>Yalçınkaya </strong>Net Turizm Ltd. Şti
+          tarafından saklıdır.
         </div>
         <div className="flex flex-row justify-center w-full items-center gap-2">
           <Link
