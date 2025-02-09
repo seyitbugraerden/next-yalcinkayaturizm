@@ -24,21 +24,21 @@ const Footer = () => {
           </p>
           <div className="flex flex-row justify-center items-center gap-3">
             <Image
-              src="/slider/logo1.png"
+              src="/footer1.png"
               alt="TURSAB"
               width={240}
               height={60}
               className="object-contain w-36  "
             />
             <Image
-              src="/slider/logo2.png"
+              src="/footer2.png"
               alt="TURSAB"
               width={120}
               height={60}
               className="object-contain w-24"
             />
             <Image
-              src="/slider/logo3.png"
+              src="/footer3.png"
               alt="TURSAB"
               width={120}
               height={60}

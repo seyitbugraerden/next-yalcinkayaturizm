@@ -7,7 +7,7 @@ import { Pagination } from "swiper/modules";
 const SwiperElement = () => {
   return (
     <Swiper
-      className="mySwiper h-[90dvh]"
+      className="mySwiper h-[85dvh]"
       modules={[Pagination]}
       pagination={{
         clickable: true,
@@ -27,29 +27,6 @@ const SwiperElement = () => {
             sorunsuz olsun!
           </p>
           <Button linkEl="/hizmetlerimiz/transfer-tasimaciligi" />
-          <div className="absolute bottom-6 left-0 w-full h-40 flex flex-row justify-center items-center items-stretch gap-2">
-            <Image
-              src="/slider/logo1.png"
-              alt="TURSAB"
-              width={240}
-              height={60}
-              className="object-contain w-24 md:w-52  "
-            />
-            <Image
-              src="/slider/logo2.png"
-              alt="TURSAB"
-              width={120}
-              height={60}
-              className="object-contain w-24 md:w-52"
-            />
-            <Image
-              src="/slider/logo3.png"
-              alt="TURSAB"
-              width={120}
-              height={60}
-              className="object-contain w-24 md:w-52"
-            />
-          </div>
         </div>
         <Image
           src="/slider/slider.webp"
