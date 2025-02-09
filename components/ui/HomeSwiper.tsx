@@ -38,7 +38,7 @@ const HomeSwiper = () => {
             spaceBetween: 30,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 50,
           },
         }}
