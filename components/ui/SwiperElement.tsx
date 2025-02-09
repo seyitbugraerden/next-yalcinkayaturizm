@@ -10,7 +10,7 @@ const SwiperElement = () => {
       className="mySwiper h-[85dvh]"
       modules={[Pagination, Autoplay]}
       autoplay={{
-        delay: 1000, // 3 saniyede bir değişim
+        delay: 5000, // 3 saniyede bir değişim
         disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
       }}
       pagination={{
