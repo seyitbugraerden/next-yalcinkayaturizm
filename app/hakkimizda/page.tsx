@@ -15,7 +15,10 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner title="Hakkımızda" />
+      <Banner
+        title="Hakkımızda"
+        imgEl="/alt_sayfalar_slider/hakkimizda.webp"
+      />
       <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
           src="/about.webp"

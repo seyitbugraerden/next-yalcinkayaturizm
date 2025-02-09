@@ -5,6 +5,7 @@ import { features } from "@/lib/data";
 import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
@@ -16,11 +17,14 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner title="Transfer Taşımacılığı" />
+      <Banner
+        title="Transfer Taşımacılığı"
+        imgEl="/alt_sayfalar_slider/hizmetlerimiz.webp"
+      />
       <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
-          src="/about.webp"
-          alt="Biz Kimiz"
+          src="/alt_sayfalar_hizmet/transfer.webp"
+          alt="Transfer Taşımacılığı"
           width={600}
           height={200}
           className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
@@ -33,7 +37,14 @@ const page = () => {
             noktasına hizmet vermektedir. Transferlerinizi Güvenilir, Konfor ve
             Huzur dolu Seyahat tadında gerçekleştirip Havalimanı ve Otel
             Transferleri hizmetleri ile Yurt içi Transferlerinizi sağlamaktayız.
-          </p>
+          </p>{" "}
+          <br />
+          <Link
+            href="tel:+905323445502"
+            className="text-sm text-[#575757] font-semibold"
+          >
+            İletişim için hemen arayın!
+          </Link>
         </div>
       </section>
       <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">

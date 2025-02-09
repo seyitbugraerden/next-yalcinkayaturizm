@@ -1,4 +1,3 @@
-import FormEl from "@/components/Contact/FormEl";
 import Banner from "@/components/ui/Banner";
 import OfferCard from "@/components/ui/OfferCard";
 import SectionTitle from "@/components/ui/SectionTitle";
@@ -6,6 +5,7 @@ import { features } from "@/lib/data";
 import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
@@ -17,11 +17,14 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner title="Turizm Taşımacılığı" />
+      <Banner
+        title="Turizm Taşımacılığı"
+        imgEl="/alt_sayfalar_slider/hizmetlerimiz.webp"
+      />
       <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
-          src="/about.webp"
-          alt="Biz Kimiz"
+          src="/alt_sayfalar_hizmet/turizm.webp"
+          alt="Turizm Taşımacılığı"
           width={600}
           height={200}
           className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
@@ -39,7 +42,14 @@ const page = () => {
             Özel grupların yurt içi kültür turlarına araç temini hizmeti
             sağladığımız gibi, yerli ve yabancı seyahat acentelerinin tur
             programlarında da talep edilen tip ve özellikte araç sağlanmaktadır.
-          </p>
+          </p>{" "}
+          <br />
+          <Link
+            href="tel:+905323445502"
+            className="text-sm text-[#575757] font-semibold"
+          >
+            İletişim için hemen arayın!
+          </Link>
         </div>
       </section>
       <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
@@ -53,12 +63,6 @@ const page = () => {
           {features.map((_, index) => (
             <OfferCard key={index} features={_} />
           ))}
-        </div>
-      </section>{" "}
-      <section className="bg-bg_sec mb-[1px]">
-        <SectionTitle white title="Bize Ulaşın" mainTitle="" description="" />
-        <div className="max-w-[85%] sm:max-w-xl mx-auto">
-          <FormEl />
         </div>
       </section>
     </>

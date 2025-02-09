@@ -7,6 +7,8 @@ interface sectionTitleTypes {
 
 interface homeServiceTypes {
   text: string;
+  imgEl: string;
+  linkEl: string;
 }
 
 interface offerCardTypes {
@@ -18,6 +20,7 @@ interface contactCardTypes {
 }
 interface bannerTypes {
   title: string;
+  imgEl: string;
 }
 
 interface paramsTypes {

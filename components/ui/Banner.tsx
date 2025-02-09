@@ -5,15 +5,15 @@ import { usePathname } from "next/navigation";
 import React from "react";
 import { SlArrowRight } from "react-icons/sl";
 
-const Banner = ({ title }: bannerTypes) => {
+const Banner = ({ title, imgEl }: bannerTypes) => {
   const pathname = usePathname();
   return (
     <div className="relative flex flex-col justify-center items-center h-[400px]">
       <Image
-        src="https://picsum.photos/1920/1080"
-        alt="Banner Logo"
+        src={imgEl}
+        alt="Banner Slider"
         fill
-        className="absolute top-0 left-0 brightness-75 w-full h-full -z-50"
+        className="absolute top-0 left-0 brightness-50 w-full h-full -z-50"
       />
       <h1 className="text-6xl text-white">{title}</h1>
       <div className="flex flex-row gap-4 items-center text-white/70 mt-6 text-xl">

@@ -21,11 +21,11 @@ const WhoAreWe = () => {
           <div className="text-4xl font-bold"></div>
           <div className="mt-4 text-justify">
             <p className="text-sm text-[#575757]">
-              Net Seyahat Turizm Ltd. Şti olarak turizm ve taşımacılık
-              sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz bütün
-              tecrübeyi bir araya getirerek siz değerli müşterilerimize hizmet
-              vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda başlıca
-              ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler
+              <strong>Net Seyahat Turizm Ltd. Şti</strong> olarak turizm ve
+              taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
+              bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
+              hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda
+              başlıca ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler
               doğrultusunda sizlere; şehir içi ve şehir dışı, ulaşım ve transfer
               faliyetlerini, otobüs, minibüs, midibüs, vip minibüs ve vip
               otomobil araçlar ile hizmet vermekteyiz.
@@ -40,9 +40,10 @@ const WhoAreWe = () => {
             <br />
             <p className="text-sm text-[#575757]">
               Başarı ve devamlılığın teminatı hizmette dürüstlük ve kalitedir.
-              Bu prensibi ilke olarak benimseyen Net Seyahat Turizm olarak
-              göstermiş olduğunuz yakın ilgi ve desteğinizden ötürü teşekkür
-              ederek, sizlere bugün ve gelecekte hizmet vermekten gurur duyarız.
+              Bu prensibi ilke olarak benimseyen{" "}
+              <strong>Net Seyahat Turizm</strong> olarak göstermiş olduğunuz
+              yakın ilgi ve desteğinizden ötürü teşekkür ederek, sizlere bugün
+              ve gelecekte hizmet vermekten gurur duyarız.
             </p>{" "}
             <br />
             <Link

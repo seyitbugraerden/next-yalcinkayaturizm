@@ -12,49 +12,38 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-bg_sec text-white pt-0 lg:pt-4 pb-4">
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-12 lg:gap-4 py-12">
-        <div>
+      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-12 lg:gap-4 py-12 lg:pb-0">
+        <div className="lg:col-span-2">
           <div className="flex justify-center items-center">
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
           </div>
           <p className="mt-4 text-sm text-white/50">
-            Yalçın Kaya Net Turizm olarak şehir içi ve şehir dışı ulaşım,
-            transfer, personel ve öğrenci taşımacılığı hizmetleri sunuyoruz.
-            Güvenli, konforlu ve kaliteli taşımacılık için buradayız!
+            <strong>Net Seyahat Turizm</strong> olarak şehir içi ve şehir dışı
+            ulaşım, transfer, personel ve öğrenci taşımacılığı hizmetleri
+            sunuyoruz. Güvenli, konforlu ve kaliteli taşımacılık için buradayız!
           </p>
-          <div className="flex flex-row justify-center lg:justify-start w-full items-center gap-2 mt-4">
-            <Link
-              href="https://www.facebook.com/people/Yal%C3%A7%C4%B1nkaya-Tur/100082860146198/"
-              target="_blank"
-              aria-label="Facebook sayfamızı ziyaret edin"
-              className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-            >
-              <FaFacebookF size={18} />
-            </Link>
-            <Link
-              href="https://www.instagram.com/yalcinkayatur/?hl=tr"
-              target="_blank"
-              aria-label="Instagram sayfamızı ziyaret edin"
-              className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-            >
-              <IoLogoInstagram size={18} />
-            </Link>
-            <Link
-              href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
-              target="_blank"
-              aria-label="Tiktok sayfamızı ziyaret edin"
-              className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-            >
-              <FaTiktok size={18} />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/company/yalçınkaya-turizm/about/"
-              target="_blank"
-              aria-label="Linkedin sayfamızı ziyaret edin"
-              className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
-            >
-              <FaLinkedinIn size={18} />
-            </Link>{" "}
+          <div className="flex flex-row justify-center items-center gap-3">
+            <Image
+              src="/slider/logo1.png"
+              alt="TURSAB"
+              width={240}
+              height={60}
+              className="object-contain w-36  "
+            />
+            <Image
+              src="/slider/logo2.png"
+              alt="TURSAB"
+              width={120}
+              height={60}
+              className="object-contain w-24"
+            />
+            <Image
+              src="/slider/logo3.png"
+              alt="TURSAB"
+              width={120}
+              height={60}
+              className="object-contain w-24"
+            />
           </div>
         </div>
         <div>
@@ -104,15 +93,6 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </div>
-        <div>
-          <Link
-            type="h5"
-            href="/hakkimizda"
-            className="font-semibold text-xl flex flex-row items-center gap-2"
-          >
-            Hakkımızda
-          </Link>
         </div>
         <div>
           <h5 className="font-semibold text-xl flex flex-row items-center gap-2">
@@ -171,15 +151,52 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-8xl mx-auto border-t border-white/30 pt-3 mt-6 flex flex-col lg:flex-row gap-6 lg:gap-0 items-center justify-between">
-        <div className="text-sm text-white/50">
-          Copy@ 2024, All Right Reserved
+        <div className="text-sm text-white/50 lg:text-nowrap">
+          Telif Hakları © 2025 {" "}
+          <strong>Net Seyahat Turizm Ltd. Şti</strong> tarafından saklıdır.
+        </div>
+        <div className="flex flex-row justify-center w-full items-center gap-2">
+          <Link
+            href="https://www.facebook.com/people/Yal%C3%A7%C4%B1nkaya-Tur/100082860146198/"
+            target="_blank"
+            aria-label="Facebook sayfamızı ziyaret edin"
+            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
+          >
+            <FaFacebookF size={18} />
+          </Link>
+          <Link
+            href="https://www.instagram.com/yalcinkayatur/?hl=tr"
+            target="_blank"
+            aria-label="Instagram sayfamızı ziyaret edin"
+            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
+          >
+            <IoLogoInstagram size={18} />
+          </Link>
+          <Link
+            href="https://www.tiktok.com/@yalcinkayaturizm?_t=ZS-8tbb4HQPzaa&_r=1"
+            target="_blank"
+            aria-label="Tiktok sayfamızı ziyaret edin"
+            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
+          >
+            <FaTiktok size={18} />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/company/yalçınkaya-turizm/about/"
+            target="_blank"
+            aria-label="Linkedin sayfamızı ziyaret edin"
+            className="w-[45px] h-[45px] flex justify-center items-center border-none rounded-full bg-white/10"
+          >
+            <FaLinkedinIn size={18} />
+          </Link>{" "}
         </div>
         <div className="flex flex-row items-center gap-3">
-          <span className="text-sm text-white/50">KOZAK Reklam Ajansı -</span>
+          <span className="text-sm text-white/50 lg:text-nowrap">
+            KOZAK Reklam Ajansı -
+          </span>
           <Link
             href="https://www.milleniumyazilim.com.tr/"
             target="_blank"
-            className="text-sm text-white/50"
+            className="text-sm text-white/50 lg:text-nowrap"
           >
             Millenium Yazılım
           </Link>

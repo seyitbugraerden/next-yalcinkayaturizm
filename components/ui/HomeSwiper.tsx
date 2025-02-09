@@ -19,7 +19,7 @@ const HomeSwiper = () => {
         pagination={{
           clickable: true,
         }}
-        loop
+        loop={true}
         autoplay={{
           delay: 1000, // 3 saniyede bir değişim
           disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
@@ -46,19 +46,46 @@ const HomeSwiper = () => {
         className="mySwiper h-[500px] overflow-visible"
       >
         <SwiperSlide>
-          <ServiceCard text="Transfer Taşımacılığı" />
+          <ServiceCard
+            text="Transfer Taşımacılığı"
+            imgEl="/hizmet_kartlar/transfer.webp"
+            linkEl="/hizmetlerimiz/transfer-tasimaciligi"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="VIP Taşımacılığı" />
+          <ServiceCard
+            text="VIP Taşımacılığı"
+            imgEl="/hizmet_kartlar/vip.webp"
+            linkEl="/hizmetlerimiz/vip-tasimaciligi"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Turizm Taşımacılığı" />
+          <ServiceCard
+            text="Turizm Taşımacılığı"
+            imgEl="/hizmet_kartlar/turizm.webp"
+            linkEl="/hizmetlerimiz/turizm-tasimaciligi"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="Filo Kiralama" />
+          <ServiceCard
+            text="Filo Kiralama"
+            imgEl="/hizmet_kartlar/filo.webp"
+            linkEl="/hizmetlerimiz/filo-kiralama"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <ServiceCard text="A Grubu Seyahat Acentesi" />
+          <ServiceCard
+            text="A Grubu Seyahat Acentesi"
+            imgEl="/hizmet_kartlar/a.webp"
+            linkEl="/hizmetlerimiz/a-grubu-seyahat-acentesi"
+          />
+        </SwiperSlide>
+        <SwiperSlide className="hidden lg:block">
+          <ServiceCard
+            text="Transfer Taşımacılığı"
+            imgEl="/hizmet_kartlar/transfer.webp"
+            linkEl="/hizmetlerimiz/transfer-tasimaciligi"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

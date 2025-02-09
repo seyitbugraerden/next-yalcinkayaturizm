@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Banner title="İletişim" />
+      <Banner title="İletişim" imgEl="/alt_sayfalar_slider/iletisim.webp" />
       <section className="flex flex-col lg:flex-row gap-12 items-stretch max-w-8xl mx-auto">
         {contact.map((_, index) => (
           <ContactCard key={index} features={_} />

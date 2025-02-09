@@ -45,65 +45,101 @@ const ReferanceSwiper = () => {
       >
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/savunma/1.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/savunma/2.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/savunma/3.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/resmi/4.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/resmi/5.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/resmi/6.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/logo.png"
+            src="/referanslarimiz/resmi/7.png"
             alt="Image"
             width={300}
             height={300}
-            className="shadow-md shadow-black/30 rounded-xl w-full p-12 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/referanslarimiz/resmi/8.png"
+            alt="Image"
+            width={300}
+            height={300}
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/referanslarimiz/diger/9.png"
+            alt="Image"
+            width={300}
+            height={300}
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/referanslarimiz/diger/10.png"
+            alt="Image"
+            width={300}
+            height={300}
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/referanslarimiz/diger/11.png"
+            alt="Image"
+            width={300}
+            height={300}
+            className="shadow-md shadow-black/30 rounded-xl w-full px-12 py-6 scale-90 lg:scale-100 hover:scale-110 transition duration-200"
           />
         </SwiperSlide>
       </Swiper>

@@ -11,7 +11,7 @@ const ImageFixed = () => {
         Özel VIP araçlarımızla güvenli, konforlu ve prestijli bir yolculuk
         deneyimi yaşayın.
       </p>
-      <Button />
+      <Button linkEl="/hizmetlerimiz/transfer-tasimaciligi" />
     </div>
   );
 };

@@ -55,6 +55,6 @@ export const mission = [
     icon: "comfort",
     title: "Vizyon",
     description:
-      "Net Seyahat Turizm olarak, taşımacılık ve turizm sektöründe müşteri memnuniyetini en üst seviyeye çıkararak, güvenli, konforlu ve yenilikçi hizmetlerimizle sektörde öncü olmayı hedefliyoruz. Teknolojik gelişmelere uyum sağlayarak, sürdürülebilir ve kaliteli ulaşım çözümleri sunmak vizyonumuzdur.",
+      "Taşımacılık ve turizm sektöründe müşteri memnuniyetini en üst seviyeye çıkararak, güvenli, konforlu ve yenilikçi hizmetlerimizle sektörde öncü olmayı hedefliyoruz. Teknolojik gelişmelere uyum sağlayarak, sürdürülebilir ve kaliteli ulaşım çözümleri sunmak vizyonumuzdur.",
   },
 ];
