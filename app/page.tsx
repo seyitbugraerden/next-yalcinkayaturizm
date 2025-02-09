@@ -18,27 +18,27 @@ export default function Home() {
   return (
     <>
       <SwiperElement />
-      <div className="nax-w-8xl mx-auto flex flex-col md:flex-row justify-center items-center gap-6 pt-6">
+      <div className="nax-w-8xl mx-auto flex flex-row justify-center items-center gap-6 pt-6">
         <Image
           src="/slider/logo1.png"
           alt="TURSAB"
           width={200}
           height={60}
-          className="object-contain  "
+          className="object-contain w-24 lg:w-40"
         />
         <Image
           src="/slider/logo2.png"
           alt="TURSAB"
           width={100}
           height={60}
-          className="object-contain"
+          className="object-contain w-24 lg:w-24"
         />
         <Image
           src="/slider/logo3.png"
           alt="TURSAB"
           width={100}
           height={60}
-          className="object-contain"
+          className="object-contain w-24 lg:w-24 "
         />
       </div>
       <WhoAreWe />
