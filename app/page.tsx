@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <SwiperElement />
-      <div className="nax-w-8xl mx-auto flex justify-center items-center gap-6 pt-6">
+      <div className="nax-w-8xl mx-auto flex flex-col md:flex-row justify-center items-center gap-6 pt-6">
         <Image
           src="/slider/logo1.png"
           alt="TURSAB"
