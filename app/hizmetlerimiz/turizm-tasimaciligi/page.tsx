@@ -27,7 +27,7 @@ const page = () => {
           alt="Turizm Taşımacılığı"
           width={600}
           height={200}
-          className="rounded-xl shadow-xl shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
+          className="rounded-xl shadow-lg shadow-black/70 object-cover h-full lg:h-[450px] max-w-[90%] mx-auto"
         />
         <div>
           <p className="flex-1 text-text text-justify">

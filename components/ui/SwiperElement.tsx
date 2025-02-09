@@ -3,12 +3,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
 import Button from "./Button";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 const SwiperElement = () => {
   return (
     <Swiper
       className="mySwiper h-[85dvh]"
-      modules={[Pagination]}
+      modules={[Pagination, Autoplay]}
+      autoplay={{
+        delay: 1000, // 3 saniyede bir değişim
+        disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
+      }}
       pagination={{
         clickable: true,
       }}
