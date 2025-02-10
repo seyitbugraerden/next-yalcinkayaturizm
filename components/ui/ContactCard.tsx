@@ -1,6 +1,9 @@
 import { FaRegClock } from "react-icons/fa";
 import { FaArrowsToDot, FaHelmetSafety } from "react-icons/fa6";
 import { GiPillow } from "react-icons/gi";
+import { IoIosMail } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
+import { MdPlace } from "react-icons/md";
 const ContactCard = ({ features }: offerCardTypes) => {
   return (
     <div className="flex flex-1 flex-col justify-center items-center gap-3 p-5 border border-transparent group transition duration-200 cursor-default rounded-xl w-full bg-[#FAFAFA]">
@@ -10,6 +13,9 @@ const ContactCard = ({ features }: offerCardTypes) => {
           {features.icon === "comfort" && <GiPillow />}
           {features.icon === "clock" && <FaRegClock />}
           {features.icon === "flex" && <FaArrowsToDot />}
+          {features.icon === "ara" && <IoCall />}
+          {features.icon === "konum" && <MdPlace />}
+          {features.icon === "email" && <IoIosMail />}
         </div>
       </div>
       <div className="flex flex-col items-center text-center gap-1 text-black">

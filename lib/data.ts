@@ -27,17 +27,17 @@ export const features = [
 
 export const contact = [
   {
-    icon: "safety",
+    icon: "konum",
     title: "Konum",
     description: "Öveçler, Tevfik Fikret Cd. No:26, 06450 Çankaya/Ankara",
   },
   {
-    icon: "comfort",
+    icon: "email",
     title: "E-Posta",
     description: "yalcinkayanetturizm@hotmail.com",
   },
   {
-    icon: "clock",
+    icon: "ara",
     title: "Telefon",
     description: "+90 532 344 55 02",
     description_sec: "+90 312 480 76 58",
