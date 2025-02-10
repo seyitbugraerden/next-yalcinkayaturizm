@@ -15,8 +15,10 @@ const Banner = ({ title, imgEl }: bannerTypes) => {
         fill
         className="absolute top-0 left-0 brightness-50 w-full h-full -z-50"
       />
-      <h1 className="text-6xl text-white">{title}</h1>
-      <div className="flex flex-row gap-4 items-center text-white/70 mt-6 text-xl">
+      <h1 className="text-6xl text-white flex justify-center items-center text-center">
+        {title}
+      </h1>
+      <div className="flex flex-row gap-4 items-center text-white/70 mt-6 text-xs lg:text-xl">
         <Link href="/">Ana Sayfa</Link>
         <SlArrowRight size={12} />
         {pathname.split("/").length > 2 ? (

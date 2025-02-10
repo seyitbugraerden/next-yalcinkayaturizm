@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="bg-bg_sec text-white pt-0 lg:pt-4 pb-4">
       <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-12 lg:gap-4 py-12 lg:pb-0">
         <div className="lg:col-span-2">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-start items-center">
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
           </div>
           <p className="mt-4 text-sm text-white/50">
@@ -22,7 +22,7 @@ const Footer = () => {
             dışı ulaşım, transfer, personel ve öğrenci taşımacılığı hizmetleri
             sunuyoruz. Güvenli, konforlu ve kaliteli taşımacılık için buradayız!
           </p>
-          <div className="flex flex-row justify-center items-center gap-3">
+          <div className="flex flex-row justify-start items-center gap-3">
             <Image
               src="/footer1.png"
               alt="TURSAB"

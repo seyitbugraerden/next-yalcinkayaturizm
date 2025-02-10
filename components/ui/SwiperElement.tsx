@@ -20,7 +20,7 @@ const SwiperElement = () => {
     >
       <SwiperSlide className="relative">
         <div className="max-w-8xl mx-auto text-white z-[999] h-full flex flex-col justify-center items-start gap-10">
-          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl">
+          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl leading-[60px]">
             Taşımacılıkta Kalite ve Güven!
           </h2>
           <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
@@ -41,14 +41,14 @@ const SwiperElement = () => {
       </SwiperSlide>
       <SwiperSlide className="relative">
         <div className="max-w-8xl mx-auto text-white z-[999] h-full flex flex-col justify-center items-start gap-10">
-          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl">
+          <h2 className="text-5xl lg:text-7xl font-semibold max-w-4xl leading-[60px]">
             Güvenli ve Konforlu Ulaşım!
           </h2>
           <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
           <p className="text-sm text-white max-w-xl leading-6">
-            <strong>Yalçınkaya</strong> Net Turizm ile şehir içi ve
-            şehir dışı yolculuklarınızı güvenli, konforlu ve zamanında
-            gerçekleştirin. Profesyonel ekibimizle daima yanınızdayız!
+            <strong>Yalçınkaya</strong> Net Turizm ile şehir içi ve şehir dışı
+            yolculuklarınızı güvenli, konforlu ve zamanında gerçekleştirin.
+            Profesyonel ekibimizle daima yanınızdayız!
           </p>
           <Button linkEl="/hizmetlerimiz/transfer-tasimaciligi" />
         </div>

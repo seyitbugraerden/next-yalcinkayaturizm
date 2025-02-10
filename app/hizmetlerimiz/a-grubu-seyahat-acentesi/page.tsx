@@ -47,12 +47,25 @@ const page = () => {
               zamanında ve eksiksiz hizmet anlayışımızla yanınızdayız.
             </p>{" "}
             <br />
-            <Link
-              href="tel:+905323445502"
-              className="text-sm text-[#575757] font-semibold"
-            >
-              İletişim için hemen arayın!
-            </Link>
+            <div className="flex flex-row gap-2 items-center">
+              {" "}
+              <Link href="https://www.tatilyaka.com.tr/" target="_blank">
+                <Image
+                  src="/alt_sayfalar_hizmet/anew.png"
+                  alt="A Grubu Seyahat Acentesi"
+                  width={120}
+                  height={200}
+                  className=""
+                />
+              </Link>{" "}
+              <Link
+                href="https://www.tatilyaka.com.tr/"
+                target="_blank"
+                className="text-sm text-[#575757] font-semibold"
+              >
+                Tatilyaka sitemize buradan ulaşabilirsiniz
+              </Link>
+            </div>
           </div>
         </div>
       </section>

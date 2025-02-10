@@ -23,7 +23,7 @@ const page = () => {
       />
       <section className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <Image
-          src="/alt_sayfalar_hizmet/filo.webp"
+          src="/alt_sayfalar_hizmet/filoic.webp"
           alt="Filo Kiralama"
           width={600}
           height={200}
