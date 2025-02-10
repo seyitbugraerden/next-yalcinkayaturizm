@@ -16,6 +16,15 @@ section {
   background-size: cover;
   background-position-x: center;
 }
+@media (max-width: 768px) {
+  .image_pos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url("../public/mobile.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+  }
+}
 .home_slider .swiper-pagination-bullet {
   @apply bg-white;
 }

@@ -1,12 +1,19 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose, MdKeyboardArrowDown } from "react-icons/md";
 
 const Menu = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const path = usePathname();
+
+  useEffect(() => {
+    setIsMobile(false);
+  }, [path]);
+
   return (
     <nav className="flex flex-row items-center justify-between text-black">
       <Link href="/">
@@ -22,8 +29,9 @@ const Menu = () => {
             src="/logo.png"
             alt="logo"
             width={220}
-            height={40}
+            height={120}
             layout="responsive"
+            className="!h-[60px] !w-[200px]"
           />
         </div>
         <li className="font-medium text-sm">
