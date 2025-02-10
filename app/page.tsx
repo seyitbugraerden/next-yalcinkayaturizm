@@ -24,7 +24,7 @@ export default function Home() {
           alt="TURSAB"
           width={200}
           height={60}
-          className="object-contain w-24 lg:w-40"
+          className="object-contain w-40 lg:w-40"
         />
         <Image
           src="/slider/logo2.png"

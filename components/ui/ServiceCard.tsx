@@ -9,7 +9,7 @@ const ServiceCard = ({ text, imgEl, linkEl }: homeServiceTypes) => {
         className="bg-white group-hover:bg-primary group-hover:text-white transition duration-200 py-4 px-3 z-10 w-[90%] rounded-xl absolute bottom-4 left-4 flex flex-row justify-between items-center"
       >
         <div className="flex flex-col gap-1 items-start justify-start">
-          <h4 className="text-xl font-semibold  line-clamp-1">{text}</h4>
+          <h4 className="text-base font-semibold  line-clamp-1">{text}</h4>
         </div>
       </Link>
       <Image
