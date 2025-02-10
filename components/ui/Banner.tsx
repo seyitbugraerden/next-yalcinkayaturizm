@@ -13,7 +13,7 @@ const Banner = ({ title, imgEl }: bannerTypes) => {
         src={imgEl}
         alt="Banner Slider"
         fill
-        className="absolute top-0 left-0 brightness-50 w-full h-full -z-50"
+        className="absolute top-0 left-0 brightness-50 w-full h-full -z-50 object-cover"
       />
       <h1 className="text-6xl text-white flex justify-center items-center text-center">
         {title}
