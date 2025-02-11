@@ -21,8 +21,8 @@ const HomeSwiper = () => {
         }}
         loop={true}
         autoplay={{
-          delay: 1000, // 3 saniyede bir değişim
-          disableOnInteraction: false, // Kullanıcı kaydırsa bile autoplay devam eder
+          delay: 3000,
+          disableOnInteraction: false,
         }}
         breakpoints={{
           320: {
