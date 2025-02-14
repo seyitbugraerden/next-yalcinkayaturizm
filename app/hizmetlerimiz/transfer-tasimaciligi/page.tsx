@@ -30,7 +30,7 @@ const page = () => {
         <div>
           <p className="flex-1 text-text text-justify">
             Sektöründe lider olmayı hedefleyen, yeniliklere öncülük yapan
-            <strong>Yalçınkaya</strong> Net Seyahat, Ankara&aposda başladığı
+            <strong> Yalçınkaya</strong> Net Seyahat, Ankara&apos;da başladığı
             transfer taşımacılığı hizmetlerine, maksimum müşteri memnuniyeti
             anlayışıyla 7/24 yurdumuzun her noktasına hizmet vermektedir.
             Transferlerinizi güvenilir, konfor ve huzur dolu seyahat tadında
