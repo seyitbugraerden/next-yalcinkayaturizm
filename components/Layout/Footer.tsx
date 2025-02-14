@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex justify-start items-center">
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
           </div>
-          <p className="mt-4 text-sm text-white/50">
+          <p className="mt-4 text-sm text-white/50 lg:pe-24">
             <strong>Yalçınkaya</strong> Net Turizm Ltd. Şti olarak turizm ve
             taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
             bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
