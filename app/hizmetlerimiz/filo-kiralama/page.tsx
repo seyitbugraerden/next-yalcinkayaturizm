@@ -1,7 +1,5 @@
+import WhatWeOffer from "@/components/Home/WhatWeOffer";
 import Banner from "@/components/ui/Banner";
-import OfferCard from "@/components/ui/OfferCard";
-import SectionTitle from "@/components/ui/SectionTitle";
-import { features } from "@/lib/data";
 import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -31,15 +29,15 @@ const page = () => {
         />
         <div>
           <p className="flex-1 text-text text-justify">
-            Filo Kiralama ve Sağladığı Avantajlar Filo kiralama sayesinde ciddi
-            bir finansman avantajı sağlarsınız ve finans kaynağınızı sürekli
-            değer kaybeden bir yatırım kalemine bağlamamış olursunuz. Filo
-            kiralama, firmanıza değerli finans kaynağınızı diğer fırsatlara
-            yöneltmeniz noktasında ciddi avantaj sağlar. Günümüzde pek çok
-            kuruluş, araç satın alma yerine uzun dönem kiralamayı tercih ediyor
-            ve operasyonel filo kiralamanın avantajlarından yararlanıyor.
-            Özellikle araç filosu bulunan şirketler için araç kiralamak satın
-            almaktan çok daha akılcı bir çözüm olmaktadır.
+            Filo kiralama, işletmeler için önemli bir finansal avantaj sunarak,
+            sermayenizi sürekli değer kaybeden bir yatırım kalemine bağlamanızı
+            önler. Bu sayede finansal kaynaklarınızı daha verimli alanlara
+            yönlendirebilir ve şirketinizin büyümesine katkı sağlayabilirsiniz.
+            Günümüzde birçok firma, araç satın almak yerine uzun dönem filo
+            kiralamayı tercih ederek operasyonel maliyetlerini optimize
+            etmektedir. Özellikle geniş araç filosuna ihtiyaç duyan şirketler
+            için filo kiralama, satın almaya kıyasla çok daha akılcı ve
+            sürdürülebilir bir çözümdür.
           </p>{" "}
           <br />
           <Link
@@ -50,19 +48,7 @@ const page = () => {
           </Link>
         </div>
       </section>
-      <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
-        <SectionTitle
-          white
-          title="NEDEN BİZİ SEÇMELİSİNİZ ?"
-          mainTitle=""
-          description=""
-        />
-        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {features.map((_, index) => (
-            <OfferCard key={index} features={_} />
-          ))}
-        </div>
-      </section>
+      <WhatWeOffer bg="bg_sec" />
     </>
   );
 };

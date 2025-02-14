@@ -24,27 +24,22 @@ const WhoAreWe = () => {
               <strong>Yalçınkaya</strong> Net Turizm Ltd. Şti olarak turizm ve
               taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
               bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
-              hizmet vermekten mutluluk duyarız. çıkmış olduğumuz bu yolda
+              hizmet vermekten mutluluk duyarız. Çıkmış olduğumuz bu yolda
               başlıca ilkelerimiz, kalite, güven ve devamlılıktır bu ilkeler
               doğrultusunda sizlere; şehir içi ve şehir dışı, ulaşım ve transfer
-              faliyetlerini, otobüs, minibüs, midibüs, vip minibüs ve vip
-              otomobil araçlar ile hizmet vermekteyiz.
-            </p>{" "}
-            <br />
-            <p className="text-sm text-[#575757]">
+              faaliyetlerini, otobüs, minibüs, midibüs, VIP minibüs ve VIP
+              otomobil araçlar ile hizmet vermekteyiz. <br /> <br />{" "}
               Hizmetlerimiz resmi ve özel kurumların şehir içi ve şehir
-              dışındaki ulaşım faaliyetlerini, personel ve öğrenci servis taşıma
-              işlemlerini. Özel ve resmi kurum kuruluşların binek otomobil, 4x4
-              pick-up, hafif ticari araç ihtyaçlarını karşılamayı kapsamaktadır.
-            </p>{" "}
-            <br />
-            <p className="text-sm text-[#575757]">
-              Başarı ve devamlılığın teminatı hizmette dürüstlük ve kalitedir.
-              Bu prensibi ilke olarak benimseyen{" "}
-              <strong>Yalçınkaya</strong> Net Turizm olarak göstermiş olduğunuz
-              yakın ilgi ve desteğinizden ötürü teşekkür ederek, sizlere bugün
-              ve gelecekte hizmet vermekten gurur duyarız.
-            </p>{" "}
+              dışındaki ulaşım faaliyetlerini ve personel servis taşıma
+              işlemlerini; özel ve resmi kurum kuruluşların binek otomobil, 4x4
+              pick-up, hafif ticari araç ihtiyaçlarını karşılamayı
+              kapsamaktadır. <br /> <br /> Başarı ve devamlılığın teminatı
+              hizmette dürüstlük ve kalitedir. Bu prensibi ilke olarak
+              benimseyen <strong>Yalçınkaya</strong> Net Turizm olarak göstermiş
+              olduğunuz yakın ilgi ve desteğinizden ötürü teşekkür ederek,
+              sizlere bugün ve gelecekte hizmet vermekten gurur duyarız.
+            </p>
+
             <br />
             <Link
               href="tel:+905323445502"

@@ -1,7 +1,5 @@
+import WhatWeOffer from "@/components/Home/WhatWeOffer";
 import Banner from "@/components/ui/Banner";
-import OfferCard from "@/components/ui/OfferCard";
-import SectionTitle from "@/components/ui/SectionTitle";
-import { features } from "@/lib/data";
 import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -31,12 +29,13 @@ const page = () => {
         />
         <div>
           <p className="flex-1 text-text text-justify">
-            Sektöründe lider olmayı hedefleyen, yeniliklere öncülük yapan Net
-            Seyahat, Ankara&aposda başladığı Transfer taşımacılığı hizmetlerine,
-            maksimum müşteri memnuniyeti anlayışıyla 7/24 yurdumuzun her
-            noktasına hizmet vermektedir. Transferlerinizi Güvenilir, Konfor ve
-            Huzur dolu Seyahat tadında gerçekleştirip Havalimanı ve Otel
-            Transferleri hizmetleri ile Yurt içi Transferlerinizi sağlamaktayız.
+            Sektöründe lider olmayı hedefleyen, yeniliklere öncülük yapan
+            <strong>Yalçınkaya</strong> Net Seyahat, Ankara&aposda başladığı
+            transfer taşımacılığı hizmetlerine, maksimum müşteri memnuniyeti
+            anlayışıyla 7/24 yurdumuzun her noktasına hizmet vermektedir.
+            Transferlerinizi güvenilir, konfor ve huzur dolu seyahat tadında
+            gerçekleştirip havalimanı ve otel transferleri hizmetleri ile yurt
+            içi transferlerinizi sağlamaktayız.
           </p>{" "}
           <br />
           <Link
@@ -47,19 +46,7 @@ const page = () => {
           </Link>
         </div>
       </section>
-      <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
-        <SectionTitle
-          white
-          title="NEDEN BİZİ SEÇMELİSİNİZ ?"
-          mainTitle=""
-          description=""
-        />
-        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {features.map((_, index) => (
-            <OfferCard key={index} features={_} />
-          ))}
-        </div>
-      </section>
+      <WhatWeOffer bg="bg_sec" />
     </>
   );
 };

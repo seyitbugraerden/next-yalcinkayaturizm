@@ -25,7 +25,7 @@ const SwiperElement = () => {
           </h2>
           <div className="w-1/2 lg:w-1/4 h-1 bg-primary"></div>
           <p className="text-sm text-white max-w-xl leading-6">
-            Transfer taşımacılığı, VIP taşımacılığı, turizim taşımacılığı, filo
+            Transfer taşımacılığı, VIP taşımacılığı, turizm taşımacılığı, filo
             kiralama, A grubu seyahat acentesi gibi hizmetlerimizle en iyi
             ulaşım çözümlerini sizlere sunuyoruz. <strong>Yalçınkaya </strong>{" "}
             Net Turizm ile her yolculuğunuz keyifli ve sorunsuz olsun!

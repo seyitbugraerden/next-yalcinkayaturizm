@@ -18,9 +18,10 @@ const Footer = () => {
             <Image src="/white_logo.png" alt="logo" width={230} height={120} />
           </div>
           <p className="mt-4 text-sm text-white/50">
-            <strong>Yalçınkaya </strong> Net Turizm olarak şehir içi ve şehir
-            dışı ulaşım, transfer, personel ve öğrenci taşımacılığı hizmetleri
-            sunuyoruz. Güvenli, konforlu ve kaliteli taşımacılık için buradayız!
+            <strong>Yalçınkaya</strong> Net Turizm Ltd. Şti olarak turizm ve
+            taşımacılık sektöründe uzmanlaşmış bir ekip ile sahip olduğumuz
+            bütün tecrübeyi bir araya getirerek siz değerli müşterilerimize
+            hizmet vermekten mutluluk duyarız.
           </p>
           <div className="flex flex-row justify-start items-center gap-3">
             <Image

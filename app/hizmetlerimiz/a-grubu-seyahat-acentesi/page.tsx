@@ -1,7 +1,5 @@
+import WhatWeOffer from "@/components/Home/WhatWeOffer";
 import Banner from "@/components/ui/Banner";
-import OfferCard from "@/components/ui/OfferCard";
-import SectionTitle from "@/components/ui/SectionTitle";
-import { features } from "@/lib/data";
 import { metadatas } from "@/lib/tr";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -69,19 +67,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="bg-bg_sec !text-white">
-        <SectionTitle
-          white
-          title="NEDEN BİZİ SEÇMELİSİNİZ ?"
-          mainTitle=""
-          description=""
-        />
-        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {features.map((_, index) => (
-            <OfferCard key={index} features={_} />
-          ))}
-        </div>
-      </section>
+      <WhatWeOffer bg="bg_sec" />
     </>
   );
 };

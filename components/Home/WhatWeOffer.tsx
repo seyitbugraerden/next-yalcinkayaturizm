@@ -6,9 +6,13 @@ import { IoIosHappy } from "react-icons/io";
 import { GiTrophyCup } from "react-icons/gi";
 import { FaStar } from "react-icons/fa";
 
-const WhatWeOffer = () => {
+const WhatWeOffer = ({ bg }: { bg?: string }) => {
   return (
-    <section className="bg-gradient-to-b from-bg to-bg_sec !text-white">
+    <section
+      className={`${
+        bg ? `bg-${bg} !text-white` : "bg-gradient-to-b from-bg to-bg_sec !text-white"
+      }`}
+    >
       <SectionTitle
         white
         title="NEDEN BİZİ SEÇMELİSİNİZ ?"
